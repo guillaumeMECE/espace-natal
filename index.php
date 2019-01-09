@@ -16,7 +16,7 @@
   <!-- NAVBAR -->
   <?php include("views/navbar.html"); ?>
 
-
+  <?php include("views/footer.html"); ?>
 
 
   <!-- Bootstrap js/jquery -->
