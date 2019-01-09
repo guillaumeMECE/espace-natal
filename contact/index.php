@@ -33,11 +33,11 @@
               <div class="input-group-prepend">
                 <span class="input-group-text" id="basic-addon1">Nom</span>
               </div>
-              <input type="text" class="form-control" name="inputNom" aria-describedby="nomHelp" placeholder="Nom">
+              <input type="text" class="form-control" name="inputNom" aria-describedby="nomHelp" placeholder="Nom" required>
               <div class="input-group-prepend">
                 <span class="input-group-text" id="basic-addon1">Prenom</span>
               </div>
-              <input type="text" class="form-control" name="inputPrenom" aria-describedby="prenomHelp" placeholder="Prenom">
+              <input type="text" class="form-control" name="inputPrenom" aria-describedby="prenomHelp" placeholder="Prenom" required>
             </div>
           </div>
           <!-- INPUT EMAIL -->
@@ -46,7 +46,7 @@
               <div class="input-group-prepend">
                 <span class="input-group-text" id="basic-addon1">@</span>
               </div>
-              <input type="email" class="form-control" name="inputEmail" aria-describedby="emailHelp" placeholder="E-mail">
+              <input type="email" class="form-control" name="inputEmail" aria-describedby="emailHelp" placeholder="E-mail" required>
             </div>
           </div>
           <!-- INPUT SUJET -->
@@ -55,7 +55,7 @@
               <div class="input-group-prepend">
                 <span class="input-group-text" id="basic-addon1">Sujet</span>
               </div>
-              <input type="text" class="form-control" name="inputSujet" aria-describedby="nomHelp" placeholder="Sujet">
+              <input type="text" class="form-control" name="inputSujet" aria-describedby="nomHelp" placeholder="Sujet" required>
             </div>
           </div>
           <!-- INPUT MESSAGE -->
@@ -64,12 +64,12 @@
               <div class="input-group-prepend">
                 <span class="input-group-text">Message</span>
               </div>
-              <textarea class="form-control" name="inputMessage" aria-label="Message" placeholder="Message"></textarea>
+              <textarea class="form-control" name="inputMessage" aria-label="Message" placeholder="Message" required></textarea>
             </div>
           </div>
           <!-- CHECKBOX AGREEMENT -->
           <div class="form-group form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
             <label class="form-check-label" for="exampleCheck1"><small>J'accepte que le site utilise ces informations pour répondre à ma demande</small></label>
           </div>
           <!-- SUBMIT BTN -->
@@ -83,7 +83,7 @@
         <h6 class="mb-5"><u>VOUS POUVEZ NOUS CONTACTER DU LUNDI AU VENDREDI :</u></h6>
         <!-- ADRESSE -->
         <div class="row mb-3">
-          <div class="col-2" >
+          <div class="col-2">
             <i class="material-icons primaryColor md-36 float-right">room</i>
           </div>
           <div class="col-10">
