@@ -21,7 +21,7 @@
   <script type="text/javascript">
     $(document).ready(function(){
       $(".nav-link").find(".active").removeClass("active");
-      $("#idGrossesseAccouchement").addClass("active");
+      $("#idPartenaires").addClass("active");
     });
   </script>
 

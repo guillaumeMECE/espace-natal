@@ -131,7 +131,7 @@
     </div>
   </div>
 
-  <!-- FOOTER & SCRIPT FOOTER -->
+  <!-- FOOTER & SCRIPT FOOTER/NAVBAR -->
   <?php include("../views/footer.html"); ?>
   <script type="text/javascript">
     $(document).ready(function(){
