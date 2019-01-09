@@ -121,17 +121,24 @@
           <div class="col-12">
             <p class="ml-4">Vous pouvez également prendre directement rendez-vous sur Doctolib :</p>
             <a class="btn btn-default shadow rounded-pill ml-4 w-25" href="https://www.doctolib.fr/maison-perinatale/paris/espace-natal" target="_blank" style="background-color: #fff;">
-              <div class="d-inline w-25" >
+              <div class="d-inline w-25">
                 <img src="\espace-natal\src\logo-doctolib.jpg" class="img-fluid w-100">
               </div>
-              </a>
+            </a>
           </div>
         </div>
       </div>
     </div>
   </div>
 
+  <!-- FOOTER & SCRIPT FOOTER -->
   <?php include("../views/footer.html"); ?>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $(".nav-link").find(".active").removeClass("active");
+      $("#idContact").addClass("active");
+    });
+  </script>
 
   <!-- Bootstrap js/jquery -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>

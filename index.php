@@ -18,6 +18,12 @@
 
   <?php include("views/footer.html"); ?>
 
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $(".nav-link").find(".active").removeClass("active");
+      $("#idAccueil").addClass("active");
+    });
+  </script>
 
   <!-- Bootstrap js/jquery -->
   <!--script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script-->
