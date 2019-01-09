@@ -19,12 +19,15 @@
   <?php include("../views/navbar.html"); ?>
   <?php //include("contactMailTo.php"); ?>
 
-  <!-- FORM SEND MESSAGE -->
+
   <div class="container">
     <div class="row ">
+      <!-- FORM SEND MESSAGE -->
       <div class="col-6 my-5 border-right">
         <form action="contactMailTo.php" method="post">
-          <h3 class="mb-5 border-bottom">ENVOYER UN MESSAGE</h3>
+          <!-- TITRE ENVOI MESSAGE -->
+          <h3 class="primaryColor mb-5 border-bottom">ENVOYER UN MESSAGE</h3>
+          <!-- INPUT NOM/PRENOM -->
           <div class="form-group">
             <div class="input-group mb-3">
               <div class="input-group-prepend">
@@ -37,6 +40,7 @@
               <input type="text" class="form-control" name="inputPrenom" aria-describedby="prenomHelp" placeholder="Prenom">
             </div>
           </div>
+          <!-- INPUT EMAIL -->
           <div class="form-group">
             <div class="input-group mb-3">
               <div class="input-group-prepend">
@@ -45,6 +49,7 @@
               <input type="email" class="form-control" name="inputEmail" aria-describedby="emailHelp" placeholder="E-mail">
             </div>
           </div>
+          <!-- INPUT SUJET -->
           <div class="form-group">
             <div class="input-group mb-3">
               <div class="input-group-prepend">
@@ -53,6 +58,7 @@
               <input type="text" class="form-control" name="inputSujet" aria-describedby="nomHelp" placeholder="Sujet">
             </div>
           </div>
+          <!-- INPUT MESSAGE -->
           <div class="form-group">
             <div class="input-group">
               <div class="input-group-prepend">
@@ -61,20 +67,24 @@
               <textarea class="form-control" name="inputMessage" aria-label="Message" placeholder="Message"></textarea>
             </div>
           </div>
+          <!-- CHECKBOX AGREEMENT -->
           <div class="form-group form-check">
             <input type="checkbox" class="form-check-input" id="exampleCheck1">
             <label class="form-check-label" for="exampleCheck1"><small>J'accepte que le site utilise ces informations pour répondre à ma demande</small></label>
           </div>
-          <button type="submit" class="btn btn-primary">Envoyer</button>
+          <!-- SUBMIT BTN -->
+          <button type="submit" class="btn btn-primary shadow rounded-pill px-4 float-right" style="background-color: rgba(50,119,136,1); border-color:rgba(50,119,136,1);">Envoyer</button>
         </form>
       </div>
+
+      <!-- CONTACT LIST -->
       <div class="col-6 my-5">
-        <h3 class="mb-5 border-bottom">CONTACTEZ-NOUS</h3>
+        <h3 class="primaryColor mb-5 border-bottom">CONTACTEZ-NOUS</h3>
         <h6 class="mb-5"><u>VOUS POUVEZ NOUS CONTACTER DU LUNDI AU VENDREDI :</u></h6>
         <!-- ADRESSE -->
         <div class="row mb-3">
           <div class="col-2" >
-            <i class="material-icons md-36 float-right">room</i>
+            <i class="material-icons primaryColor md-36 float-right">room</i>
           </div>
           <div class="col-10">
             <h6>ADRESSE :</h6>
@@ -84,7 +94,7 @@
         <!-- TELEPHONE -->
         <div class="row mb-3">
           <div class="col-2">
-            <i class="material-icons md-36 float-right">call</i>
+            <i class="material-icons primaryColor md-36 float-right">call</i>
           </div>
           <div class="col-10">
             <h6>TÉLÉPHONE :</h6>
@@ -92,19 +102,19 @@
             <br>
             <small>Du lundi au vendredi de 9h à 19h</small>
             <br>
-            <strong>01.45.03.53.63</strong>
+            <strong class="primaryColor">01.45.03.53.63</strong>
           </div>
         </div>
         <!-- EMAIL -->
         <div class="row mb-3">
           <div class="col-2">
-            <i class="material-icons md-36 float-right">mail_outline</i>
+            <i class="material-icons primaryColor md-36 float-right">mail_outline</i>
           </div>
           <div class="col-10">
             <h6>E-MAIL :</h6>
             <small>Envoyez un mail 7j/7 et 24h/24</small>
             <br>
-            <strong>contact@espace-natal.com</strong>
+            <strong class="primaryColor">contact@espace-natal.com</strong>
           </div>
         </div>
       </div>
@@ -113,7 +123,6 @@
 
 
   <!-- Bootstrap js/jquery -->
-  <!--script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 </body>
