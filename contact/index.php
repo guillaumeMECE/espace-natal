@@ -117,6 +117,16 @@
             <strong class="primaryColor">contact@espace-natal.com</strong>
           </div>
         </div>
+        <div class="row mb-3">
+          <div class="col-12">
+            <p class="ml-4">Vous pouvez également prendre directement rendez-vous sur Doctolib :</p>
+            <a class="btn btn-default shadow rounded-pill ml-4 w-25" href="https://www.doctolib.fr/maison-perinatale/paris/espace-natal" target="_blank" style="background-color: #fff;">
+              <div class="d-inline w-25" >
+                <img src="\espace-natal\src\logo-doctolib.jpg" class="img-fluid w-100">
+              </div>
+              </a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
