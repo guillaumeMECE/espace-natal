@@ -19,20 +19,20 @@
 
   <!-- FORM SEND MESSAGE -->
   <div class="container" >
-    <div class="row">
-      <div class="col-6 my-5">
-        <form>
+    <div class="row ">
+      <div class="col-6 my-5 border-right">
+        <form action="contactMailTo.php" method="post">
           <h3 class="mb-5">ENVOYER UN MESSAGE</h3>
           <div class="form-group">
             <div class="input-group mb-3">
               <div class="input-group-prepend">
                 <span class="input-group-text" id="basic-addon1">Nom</span>
               </div>
-              <input type="text" class="form-control" id="inputNom" aria-describedby="nomHelp" placeholder="Nom">
+              <input type="text" class="form-control" name="inputNom" aria-describedby="nomHelp" placeholder="Nom">
               <div class="input-group-prepend">
                 <span class="input-group-text" id="basic-addon1">Prenom</span>
               </div>
-              <input type="text" class="form-control" id="inputPrenom" aria-describedby="prenomHelp" placeholder="Prenom">
+              <input type="text" class="form-control" name="inputPrenom" aria-describedby="prenomHelp" placeholder="Prenom">
             </div>
           </div>
           <div class="form-group">
@@ -40,7 +40,7 @@
               <div class="input-group-prepend">
                 <span class="input-group-text" id="basic-addon1">@</span>
               </div>
-              <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="E-mail">
+              <input type="email" class="form-control" name="inputEmail" aria-describedby="emailHelp" placeholder="E-mail">
             </div>
           </div>
           <div class="form-group">
@@ -48,7 +48,7 @@
               <div class="input-group-prepend">
                 <span class="input-group-text" id="basic-addon1">Sujet</span>
               </div>
-              <input type="text" class="form-control" id="inputSujet" aria-describedby="nomHelp" placeholder="Sujet">
+              <input type="text" class="form-control" name="inputSujet" aria-describedby="nomHelp" placeholder="Sujet">
             </div>
           </div>
           <div class="form-group">
@@ -56,7 +56,7 @@
               <div class="input-group-prepend">
                 <span class="input-group-text">Message</span>
               </div>
-              <textarea class="form-control" id="inputMessage" aria-label="Message" placeholder="Message"></textarea>
+              <textarea class="form-control" name="inputMessage" aria-label="Message" placeholder="Message"></textarea>
             </div>
           </div>
           <div class="form-group form-check">
