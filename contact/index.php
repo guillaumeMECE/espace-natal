@@ -21,9 +21,9 @@
 
 
   <div class="container">
-    <div class="row ">
+    <div class="row">
       <!-- FORM SEND MESSAGE -->
-      <div class="col-6 my-5 border-right">
+      <div class="col-lg-6 my-5 border-right">
         <form action="contactMailTo.php" method="post">
           <!-- TITRE ENVOI MESSAGE -->
           <h3 class="primaryColor mb-5 border-bottom">ENVOYER UN MESSAGE</h3>
@@ -78,7 +78,7 @@
       </div>
 
       <!-- CONTACT LIST -->
-      <div class="col-6 my-5">
+      <div class="col-lg-6 my-5">
         <h3 class="primaryColor mb-5 border-bottom">CONTACTEZ-NOUS</h3>
         <h6 class="mb-5"><u>VOUS POUVEZ NOUS CONTACTER DU LUNDI AU VENDREDI :</u></h6>
         <!-- ADRESSE -->
