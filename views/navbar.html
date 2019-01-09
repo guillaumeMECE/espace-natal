@@ -1,18 +1,24 @@
 
+<!--  NAVBAR -->
 
-<div class="w-100" style="background-color: #eee;">
-  <div class="d-table mx-auto py-3" style="background-color: #ddd;">
+<div class="w-100" style="background-color: rgba(199,246,247,0.25);">
+
+  <!-- LOGO -->
+  <!--div class="d-table mx-auto py-3" style="background-color: #ddd;"-->
+  <div class="d-table mx-auto py-3 w-25">
     <img src="\espace-natal\src\logo-espace-natal-paris.png" class="img-fluid w-100" alt="logo-espace-natal-paris">
   </div>
-  <ul class="nav nav-tabs justify-content-center">
+
+  <!-- NAVS -->
+  <ul class="nav nav-tabs justify-content-center mt-2">
     <li class="nav-item">
-      <a class="nav-link active" href="\espace-natal">Accueil</a>
+      <a class="nav-link" id="idAccueil" href="\espace-natal">Accueil</a>
     </li>
     <!-- Grossesse & Accouchement -->
     <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Grossesse & Accouchement</a>
+      <a class="nav-link dropdown-toggle" id="idGrossesseAccouchement" data-toggle="dropdown" href="" role="button" aria-haspopup="true" aria-expanded="false">Grossesse & Accouchement</a>
       <div class="dropdown-menu">
-        <a class="dropdown-item" href="#">Grossesse physiologique</a>
+        <a class="dropdown-item" href="\espace-natal\grossesse_accouchement">Grossesse physiologique</a>
         <a class="dropdown-item" href="#">Grossesse pathologique</a>
         <div class="dropdown-divider"></div>
         <a class="dropdown-item" href="#">Accouchement</a>
@@ -20,16 +26,16 @@
     </li>
     <!-- Chirurgie gynécologique -->
     <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Chirurgie gynécologique</a>
+      <a class="nav-link dropdown-toggle" id="idChirurgieGynecologique" data-toggle="dropdown" href="" role="button" aria-haspopup="true" aria-expanded="false">Chirurgie gynécologique</a>
       <div class="dropdown-menu">
-        <a class="dropdown-item" href="#">Pathologies</a>
+        <a class="dropdown-item" href="\espace-natal\chirurgie_gynecologique">Pathologies</a>
         <a class="dropdown-item" href="#">Les techniques opératoires</a>
         <a class="dropdown-item" href="#">Les spécialistes</a>
       </div>
     </li>
     <!-- Infertilité -->
     <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Infertilité</a>
+      <a class="nav-link dropdown-toggle" id="idInfertilite" data-toggle="dropdown" href="" role="button" aria-haspopup="true" aria-expanded="false">Infertilité</a>
       <div class="dropdown-menu">
         <a class="dropdown-item" href="\espace-natal\infertilite">Bilan de fertilité</a>
         <a class="dropdown-item" href="#">Bilan d’infertilité</a>
@@ -42,7 +48,7 @@
     </li>
     <!-- Contact -->
     <li class="nav-item">
-      <a class="nav-link" href="\espace-natal\contact">Contact</a>
+      <a class="nav-link" id="idContact" href="\espace-natal\contact">Contact</a>
     </li>
   </ul>
 </div>

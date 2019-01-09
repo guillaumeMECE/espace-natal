@@ -16,7 +16,14 @@
   <!-- NAVBAR -->
   <?php include("../views/navbar.html"); ?>
 
-
+  <!-- FOOTER & SCRIPT FOOTER -->
+  <?php include("../views/footer.html"); ?>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $(".nav-link").find(".active").removeClass("active");
+      $("#idGrossesseAccouchement").addClass("active");
+    });
+  </script>
 
 
   <!-- Bootstrap js/jquery -->
