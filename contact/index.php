@@ -9,6 +9,8 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="/espace-natal/style.css">
 </head>
 
 <body>
@@ -18,11 +20,11 @@
   <?php //include("contactMailTo.php"); ?>
 
   <!-- FORM SEND MESSAGE -->
-  <div class="container" >
+  <div class="container">
     <div class="row ">
       <div class="col-6 my-5 border-right">
         <form action="contactMailTo.php" method="post">
-          <h3 class="mb-5">ENVOYER UN MESSAGE</h3>
+          <h3 class="mb-5 border-bottom">ENVOYER UN MESSAGE</h3>
           <div class="form-group">
             <div class="input-group mb-3">
               <div class="input-group-prepend">
@@ -67,13 +69,47 @@
         </form>
       </div>
       <div class="col-6 my-5">
-        2 of 2
+        <h3 class="mb-5 border-bottom">CONTACTEZ-NOUS</h3>
+        <h6 class="mb-5"><u>VOUS POUVEZ NOUS CONTACTER DU LUNDI AU VENDREDI :</u></h6>
+        <!-- ADRESSE -->
+        <div class="row mb-3">
+          <div class="col-2" >
+            <i class="material-icons md-36 float-right">room</i>
+          </div>
+          <div class="col-10">
+            <h6>ADRESSE :</h6>
+            <small>5 rue Faustin Hélie, 75116 Paris</small>
+          </div>
+        </div>
+        <!-- TELEPHONE -->
+        <div class="row mb-3">
+          <div class="col-2">
+            <i class="material-icons md-36 float-right">call</i>
+          </div>
+          <div class="col-10">
+            <h6>TÉLÉPHONE :</h6>
+            <small>Contactez le secrétariat</small>
+            <br>
+            <small>Du lundi au vendredi de 9h à 19h</small>
+            <br>
+            <strong>01.45.03.53.63</strong>
+          </div>
+        </div>
+        <!-- EMAIL -->
+        <div class="row mb-3">
+          <div class="col-2">
+            <i class="material-icons md-36 float-right">mail_outline</i>
+          </div>
+          <div class="col-10">
+            <h6>E-MAIL :</h6>
+            <small>Envoyez un mail 7j/7 et 24h/24</small>
+            <br>
+            <strong>contact@espace-natal.com</strong>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-
-
-
 
 
   <!-- Bootstrap js/jquery -->
