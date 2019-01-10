@@ -137,6 +137,8 @@
     $(document).ready(function(){
       $(".nav-link").find(".active").removeClass("active");
       $("#idContact").addClass("active");
+      $("#idContactFooter").removeClass("inactiveFooter");
+      $("#idContactFooter").addClass("activeFooter");
     });
   </script>
 
