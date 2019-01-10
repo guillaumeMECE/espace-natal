@@ -17,3 +17,8 @@
 
 a.activeFooter{color: rgba(50,119,136,1); font-weight: bold;}
 a.inactiveFooter{color: #888; font-weight:normal;}
+
+p {
+  text-align: justify;
+  text-justify: inter-word;
+}
