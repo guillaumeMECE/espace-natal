@@ -12,6 +12,7 @@
 .material-icons.md-light { color: rgba(255, 255, 255, 1); }
 .material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
 
+/* COLOR RULES */
 .primaryColor{ color: rgba(50,119,136,1); }
 .secondaryColor{ color: rgba(169,216,217,1); }
 
@@ -22,3 +23,27 @@ p {
   text-align: justify;
   text-justify: inter-word;
 }
+
+/* NAVBAR STYLE RULES */
+ul.nav li a:hover, ul.nav li a:active {
+    color: rgba(50,119,136,0.7) !important;
+}
+
+ul.nav li a  {
+    color: #888 !important;
+}
+
+ul.nav li a.active  {
+    color: rgba(50,119,136,1) !important;
+    font-weight: bold;
+}
+
+.dropdown .dropdown-menu .dropdown-item:active{
+  color: white !important;
+  background-color: rgba(50,119,136,1) !important;
+}
+/* dropdown on hover */
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; // remove the gap so it doesn't close
+ }
