@@ -14,3 +14,6 @@
 
 .primaryColor{ color: rgba(50,119,136,1); }
 .secondaryColor{ color: rgba(169,216,217,1); }
+
+a.activeFooter{color: rgba(50,119,136,1); font-weight: bold;}
+a.inactiveFooter{color: #888; font-weight:normal;}
