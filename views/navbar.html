@@ -4,68 +4,88 @@
 
   <!-- LOGO -->
   <!--div class="d-table mx-auto py-3" style="background-color: #ddd;"-->
-  <div class="d-table mx-auto py-3 w-25">
-    <img src="\espace-natal\src\logo-espace-natal-paris.png" class="img-fluid w-100" alt="logo-espace-natal-paris">
+  <div class="d-table mx-auto py-3 w-25" >
+    <img src="\espace-natal\src\logo-espace-natal-paris.png" class="img-fluid w-100" id="idBrandLogoLargeScreen" alt="logo-espace-natal-paris">
   </div>
 
   <!-- NAVS -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="\espace-natal">  <!--i class="material-icons primaryColor">home</i--> </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-    <ul class="navbar-nav">
-      <!-- ACCUEIL -->
-        <a class="navbar-brand" href="\espace-natal">  <i class="material-icons primaryColor" style="vertical-align: middle;">home</i> </a>
+    <a class="navbar-brand" href="\espace-natal">
+        <img src="\espace-natal\src\logo-espace-natal-paris.png" width="240" height="69" id="idBrandLogoSmallScreen" alt="logo-espace-natal-paris">
+      <!--i class="material-icons primaryColor">home</i-->
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <!-- ACCUEIL -->
+        <a class="navbar-brand" href="\espace-natal"> <i class="material-icons primaryColor" style="vertical-align: middle;">home</i> </a>
 
-      <!-- Grossesse & Accouchement -->
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" id="idGrossesseAccouchement" href="\espace-natal\grossesse_accouchement" role="button" aria-haspopup="true" aria-expanded="false">
-          GROSSESSE & ACCOUCHEMENT
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="\espace-natal\grossesse_accouchement">Grossesse physiologique</a>
-          <a class="dropdown-item" href="#">Grossesse pathologique</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Accouchement</a>
-        </div>
-      </li>
+        <!-- Grossesse & Accouchement -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="idGrossesseAccouchement" href="\espace-natal\grossesse_accouchement" role="button" aria-haspopup="true" aria-expanded="false">
+            GROSSESSE & ACCOUCHEMENT
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="\espace-natal\grossesse_accouchement">Grossesse physiologique</a>
+            <a class="dropdown-item" href="#">Grossesse pathologique</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Accouchement</a>
+          </div>
+        </li>
 
-      <!-- Chirurgie gynécologique -->
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" id="idChirurgieGynecologique" href="\espace-natal\chirurgie_gynecologique" role="button" aria-haspopup="true" aria-expanded="false">
-          CHIRURGIE GYNÉCOLOGIQUE
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="\espace-natal\chirurgie_gynecologique">Pathologies</a>
-          <a class="dropdown-item" href="#">Les techniques opératoires</a>
-          <a class="dropdown-item" href="#">Les spécialistes</a>
-        </div>
-      </li>
+        <!-- Chirurgie gynécologique -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="idChirurgieGynecologique" href="\espace-natal\chirurgie_gynecologique" role="button" aria-haspopup="true" aria-expanded="false">
+            CHIRURGIE GYNÉCOLOGIQUE
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="\espace-natal\chirurgie_gynecologique">Pathologies</a>
+            <a class="dropdown-item" href="#">Les techniques opératoires</a>
+            <a class="dropdown-item" href="#">Les spécialistes</a>
+          </div>
+        </li>
 
-      <!-- Infertilité -->
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" id="idInfertilite" href="\espace-natal\infertilite" role="button" aria-haspopup="true" aria-expanded="false">
-          INFERTILITÉ
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="\espace-natal\infertilite">Bilan de fertilité</a>
-          <a class="dropdown-item" href="#">Bilan d’infertilité</a>
-          <a class="dropdown-item" href="#">Prise en charge</a>
-        </div>
-      </li>
+        <!-- Infertilité -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="idInfertilite" href="\espace-natal\infertilite" role="button" aria-haspopup="true" aria-expanded="false">
+            INFERTILITÉ
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="\espace-natal\infertilite">Bilan de fertilité</a>
+            <a class="dropdown-item" href="#">Bilan d’infertilité</a>
+            <a class="dropdown-item" href="#">Prise en charge</a>
+          </div>
+        </li>
 
-      <!-- Nos Partenaires -->
-      <li class="nav-item">
-        <a class="nav-link" id="idPartenaires" href="\espace-natal\partenaires">PARTENAIRES</a>
-      </li>
+        <!-- Partenaires -->
+        <li class="nav-item">
+          <a class="nav-link" id="idPartenaires" href="\espace-natal\partenaires">PARTENAIRES</a>
+        </li>
 
-      <!-- Contact -->
-      <li class="nav-item">
-        <a class="nav-link" id="idContact" href="\espace-natal\contact">CONTACT</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+        <!-- Contact -->
+        <li class="nav-item">
+          <a class="nav-link" id="idContact" href="\espace-natal\contact">CONTACT</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 </div>
+
+<!-- SCRIPT ENABLE/DISABLE CLICK ON HEAD DROPDOWN LINK -->
+<script type="text/javascript">
+  // FIXME: hide and show not efficient
+  $(document).ready(function() {
+    if ($(document).width() < 992) { //SMARTPHONE
+      //992 for large screen according to navbar breakpoint
+      $(".dropdown-toggle").attr("data-toggle", "dropdown");
+      $("#idBrandLogoSmallScreen").show();
+      $("#idBrandLogoLargeScreen").hide();
+    } else { // PC
+      $(".dropdown-toggle").removeAttr("data-toggle");
+      $("#idBrandLogoSmallScreen").hide();
+      $("#idBrandLogoLargeScreen").show();
+    }
+  });
+</script>
