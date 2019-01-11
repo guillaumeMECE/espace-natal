@@ -1,4 +1,3 @@
-
 <!--  NAVBAR -->
 
 <div class="w-100" style="background-color: rgba(199,246,247,0.15);">
@@ -10,46 +9,63 @@
   </div>
 
   <!-- NAVS -->
-  <ul class="nav nav-tabs justify-content-center mt-2">
-    <li class="nav-item">
-      <a class="nav-link" id="idAccueil" href="\espace-natal">ACCUEIL</a>
-    </li>
-    <!-- Grossesse & Accouchement -->
-    <li class="nav-item dropdown">
-      <a class="nav-link" id="idGrossesseAccouchement" href="\espace-natal\grossesse_accouchement" role="button" aria-haspopup="true" aria-expanded="false">GROSSESSE & ACCOUCHEMENT</a>
-      <!--a href="\espace-natal\grossesse_accouchement">Stack Overflow</a-->
-      <div class="dropdown-menu">
-        <a class="dropdown-item" href="\espace-natal\grossesse_accouchement">Grossesse physiologique</a>
-        <a class="dropdown-item" href="#">Grossesse pathologique</a>
-        <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="#">Accouchement</a>
-      </div>
-    </li>
-    <!-- Chirurgie gynécologique -->
-    <li class="nav-item dropdown">
-      <a class="nav-link" id="idChirurgieGynecologique" href="\espace-natal\chirurgie_gynecologique" role="button" aria-haspopup="true" aria-expanded="false">CHIRURGIE GYNÉCOLOGIQUE</a>
-      <div class="dropdown-menu">
-        <a class="dropdown-item" href="\espace-natal\chirurgie_gynecologique">Pathologies</a>
-        <a class="dropdown-item" href="#">Les techniques opératoires</a>
-        <a class="dropdown-item" href="#">Les spécialistes</a>
-      </div>
-    </li>
-    <!-- Infertilité -->
-    <li class="nav-item dropdown">
-      <a class="nav-link" id="idInfertilite" href="\espace-natal\infertilite" role="button" aria-haspopup="true" aria-expanded="false">INFERTILITÉ</a>
-      <div class="dropdown-menu">
-        <a class="dropdown-item" href="\espace-natal\infertilite">Bilan de fertilité</a>
-        <a class="dropdown-item" href="#">Bilan d’infertilité</a>
-        <a class="dropdown-item" href="#">Prise en charge</a>
-      </div>
-    </li>
-    <!-- Nos Partenaires -->
-    <li class="nav-item">
-      <a class="nav-link" id="idPartenaires" href="\espace-natal\partenaires">PARTENAIRES</a>
-    </li>
-    <!-- Contact -->
-    <li class="nav-item">
-      <a class="nav-link" id="idContact" href="\espace-natal\contact">CONTACT</a>
-    </li>
-  </ul>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="\espace-natal">  <!--i class="material-icons primaryColor">home</i--> </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <!-- ACCUEIL -->
+        <a class="navbar-brand" href="\espace-natal">  <i class="material-icons primaryColor" style="vertical-align: middle;">home</i> </a>
+
+      <!-- Grossesse & Accouchement -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="idGrossesseAccouchement" href="\espace-natal\grossesse_accouchement" role="button" aria-haspopup="true" aria-expanded="false">
+          GROSSESSE & ACCOUCHEMENT
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="\espace-natal\grossesse_accouchement">Grossesse physiologique</a>
+          <a class="dropdown-item" href="#">Grossesse pathologique</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Accouchement</a>
+        </div>
+      </li>
+
+      <!-- Chirurgie gynécologique -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="idChirurgieGynecologique" href="\espace-natal\chirurgie_gynecologique" role="button" aria-haspopup="true" aria-expanded="false">
+          CHIRURGIE GYNÉCOLOGIQUE
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="\espace-natal\chirurgie_gynecologique">Pathologies</a>
+          <a class="dropdown-item" href="#">Les techniques opératoires</a>
+          <a class="dropdown-item" href="#">Les spécialistes</a>
+        </div>
+      </li>
+
+      <!-- Infertilité -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="idInfertilite" href="\espace-natal\infertilite" role="button" aria-haspopup="true" aria-expanded="false">
+          INFERTILITÉ
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="\espace-natal\infertilite">Bilan de fertilité</a>
+          <a class="dropdown-item" href="#">Bilan d’infertilité</a>
+          <a class="dropdown-item" href="#">Prise en charge</a>
+        </div>
+      </li>
+
+      <!-- Nos Partenaires -->
+      <li class="nav-item">
+        <a class="nav-link" id="idPartenaires" href="\espace-natal\partenaires">PARTENAIRES</a>
+      </li>
+
+      <!-- Contact -->
+      <li class="nav-item">
+        <a class="nav-link" id="idContact" href="\espace-natal\contact">CONTACT</a>
+      </li>
+    </ul>
+  </div>
+</nav>
 </div>
