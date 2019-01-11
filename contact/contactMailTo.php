@@ -10,7 +10,8 @@ else
 	$passage_ligne = "\n";
 }
 //=====Déclaration des messages au format texte.
-$message_txt = $_POST["inputEmail"].$passage_ligne.$_POST["inputMessage"];
+$message_info_user="Nom : ".$_POST["inputNom"].$passage_ligne."Prenom : ".$_POST["inputPrenom"].$passage_ligne."E-mail : ".$_POST["inputEmail"].$passage_ligne.$passage_ligne;
+$message_txt = $message_info_user.$passage_ligne.$_POST["inputSujet"]." :".$passage_ligne.$_POST["inputMessage"];
 //==========
 
 //=====Création de la boundary
@@ -40,10 +41,15 @@ $message.= $passage_ligne."--".$boundary."--".$passage_ligne;
 //==========
 
 //=====Envoi de l'e-mail.
-mail($mail,$sujet,$message,$header);
+$url;
+try {
+	mail($mail,$sujet,$message,$header);
+	$url='\espace-natal\contact?send=true';
+} catch (\Exception $e) {
+	$url='\espace-natal\contact?send=false';
+}
 //==========
 //retour a la page contact
 $delay = 0;
-$url='\espace-natal\contact';
 header("Refresh: $delay;url=$url");
 ?>
