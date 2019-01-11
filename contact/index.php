@@ -74,7 +74,20 @@
           </div>
           <!-- SUBMIT BTN -->
           <button type="submit" class="btn btn-primary shadow rounded-pill px-4 float-right" style="background-color: rgba(50,119,136,1); border-color:rgba(50,119,136,1);">Envoyer</button>
+
         </form>
+        <?php //ALERT APRES ENVOI DU MAIL
+          if (isset($_GET['send'])) {
+            if ($_GET['send'] == "true"){
+              echo "<div class=\"alert alert-success w-75 mx-auto m-3 text-center float-left\" role=\"alert\">
+                    Votre message c'est bien envoyé.
+                    </div>";
+            }else{
+              echo "<div class=\"alert alert-danger w-75 mx-auto m-3 text-center float-left\" role=\"alert\">
+                    Une erreur s'est produite lors de l'envoi du message, veuillez réessayer ultérieurement.
+                    </div>";
+            }
+          } ?>
       </div>
 
       <!-- CONTACT LIST -->
@@ -134,7 +147,7 @@
   <!-- FOOTER & SCRIPT FOOTER/NAVBAR -->
   <?php include("../views/footer.html"); ?>
   <script type="text/javascript">
-    $(document).ready(function(){
+    $(document).ready(function() {
       $(".nav-link").find(".active").removeClass("active");
       $("#idContact").addClass("active");
       $("#idContactFooter").removeClass("inactiveFooter");
