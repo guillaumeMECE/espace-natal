@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:600,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
 body {
   font-family: 'Open Sans', sans-serif; !important;
 }
@@ -30,15 +32,15 @@ p {
 }
 
 /* NAVBAR STYLE RULES */
-ul.nav li a:hover, ul.nav li a:active {
+ul.navbar-nav li a:hover, ul.navbar-nav li a:active {
     color: rgba(50,119,136,0.7) !important;
 }
 
-ul.nav li a  {
+ul.navbar-nav li a  {
     color: #888 !important;
 }
 
-ul.nav li a.active  {
+ul.navbar-nav li a.active  {
     color: rgba(50,119,136,1) !important;
     font-weight: bold;
 }
@@ -47,8 +49,37 @@ ul.nav li a.active  {
   color: white !important;
   background-color: rgba(50,119,136,1) !important;
 }
+
 /* dropdown on hover */
+@media (min-width: 992px) {
 .dropdown:hover .dropdown-menu {
     display: block;
     margin-top: 0; // remove the gap so it doesn't close
  }
+}
+
+@media (min-width: 992px) {
+ .navbar-nav {
+     float:none;
+     margin:0 auto;
+     display: block;
+     text-align: center;
+ }
+
+ .navbar-nav > li {
+     display: inline-block;
+     float:none;
+ }
+}
+
+ @media (max-width: 992px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
