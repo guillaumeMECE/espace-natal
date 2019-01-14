@@ -144,3 +144,20 @@ ul.navbar-nav li a.active {
     position: relative;
   }
 }
+
+.imgContainer{
+  position:absolute;
+  transform:translate(-25%,-50%);
+  top: 50%;
+  left: 25%;
+  width:600px;
+   z-index:2;
+   background-color: rgba(250, 250, 250, 0.85);
+   padding: 3em 3.5em;
+}
+h1{
+
+  font-weight: 700;
+  text-decoration: underline;
+  color: rgba(50, 119, 136, 1);
+}
