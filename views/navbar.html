@@ -1,26 +1,30 @@
 <!--  NAVBAR -->
 
-<div class="w-100" style="background-color: rgba(199,246,247,0.15);">
+<!--div class="w-100" style="background-color: rgba(199,246,247,0.15);"-->
 
   <!-- LOGO -->
   <!--div class="d-table mx-auto py-3" style="background-color: #ddd;"-->
-  <div class="d-table mx-auto py-3 w-25" >
+  <!--div class="d-table mx-auto py-3 w-25" >
     <img src="\espace-natal\src\logo-espace-natal-paris.png" class="img-fluid w-100" id="idBrandLogoLargeScreen" alt="logo-espace-natal-paris">
-  </div>
+  </div-->
 
   <!-- NAVS -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="\espace-natal">
-        <img src="\espace-natal\src\logo-espace-natal-paris.png" width="240" height="69" id="idBrandLogoSmallScreen" alt="logo-espace-natal-paris">
-      <!--i class="material-icons primaryColor">home</i-->
-    </a>
+    <!--div class="navbar-header" id="idNavbarLogo" style="background-color: #000;"-->
+      <a class="navbar-brand" href="\espace-natal">
+          <!--img src="\espace-natal\src\logo-espace-natal-paris.png" width="240" height="69" id="idBrandLogoSmallScreen" alt="logo-espace-natal-paris"-->
+          <div class="w-100" id="idNavbarHeader" style="text-align: center;" >
+            <img src="\espace-natal\src\logo-espace-natal-paris.png" class="" id="idBrandLogoLargeScreen" alt="logo-espace-natal-paris">
+          </div>
+      </a>
+
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <!-- ACCUEIL -->
-        <a class="navbar-brand" href="\espace-natal"> <i class="material-icons primaryColor" style="vertical-align: middle;">home</i> </a>
+        <a class="navbar-item" href="\espace-natal"> <i class="material-icons primaryColor" style="vertical-align:text-top;">home</i> </a>
 
         <!-- Grossesse & Accouchement -->
         <li class="nav-item dropdown">
@@ -71,7 +75,7 @@
       </ul>
     </div>
   </nav>
-</div>
+<!--/div-->
 
 <!-- SCRIPT ENABLE/DISABLE CLICK ON HEAD DROPDOWN LINK -->
 <script type="text/javascript">
@@ -79,13 +83,13 @@
   $(document).ready(function() {
     if ($(document).width() < 992) { //SMARTPHONE
       //992 for large screen according to navbar breakpoint
-      $(".dropdown-toggle").attr("data-toggle", "dropdown");
-      $("#idBrandLogoSmallScreen").show();
-      $("#idBrandLogoLargeScreen").hide();
+      $(".dropdown-toggle").attr("data-toggle", "dropdown"); //inactive hover and top link
+      //$("#idBrandLogoSmallScreen").show();
+      //$("#idBrandLogoLargeScreen").hide();
     } else { // PC
-      $(".dropdown-toggle").removeAttr("data-toggle");
-      $("#idBrandLogoSmallScreen").hide();
-      $("#idBrandLogoLargeScreen").show();
+      $(".dropdown-toggle").removeAttr("data-toggle"); //active hover and top link
+      //$("#idBrandLogoSmallScreen").hide();
+      //$("#idBrandLogoLargeScreen").show();
     }
   });
 </script>
