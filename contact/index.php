@@ -17,8 +17,17 @@
 
   <!-- NAVBAR -->
   <?php include("../views/navbar.html"); ?>
-  <?php //include("contactMailTo.php"); ?>
 
+  <!-- IMAGE+TXTBOX -->
+  <div class="my-5" style="position:relative;">
+     <div style="">
+        <img src="\espace-natal\src\Photo-49.jpg" alt="" style="width:100%;">
+     </div>
+     <div class="imgContainer">
+       <h1>CONTACT</h1>
+      <p class="mt-3"><small>Le secrétariat de l’Espace Natal se tient à votre disposition du lundi au vendredi de 9h à 19h</small></p>
+      </div>
+  </div>
 
   <div class="container">
     <div class="row">

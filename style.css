@@ -49,6 +49,10 @@ body {
   color: rgba(169, 216, 217, 1);
 }
 
+.grayColor{
+  color: rgba(155, 155, 155, 1);
+}
+
 a.activeFooter {
   color: rgba(50, 119, 136, 1);
   font-weight: bold;
@@ -143,4 +147,38 @@ ul.navbar-nav li a.active {
   .navbar-brand {
     position: relative;
   }
+}
+
+.imgContainer{
+  position:absolute;
+  transform:translate(-25%,-50%);
+  top: 50%;
+  left: 25%;
+  width:600px;
+   z-index:2;
+   background-color: rgba(250, 250, 250, 0.85);
+   padding: 3em 3.5em;
+}
+.imgContainerAccueil{
+  position:absolute;
+  top: 0px;
+  left: 0;
+  width:100%;
+  height: 100%;
+   z-index:2;
+   background-color: rgba(250, 250, 250, 0.4);
+}
+.txtContainerAccueil{
+  position:absolute;
+  transform:translate(-25%,-50%);
+  top: 50%;
+  left: 25%;
+   z-index:2;
+   padding: 3em 3.5em;
+}
+h1{
+
+  font-weight: 700;
+  text-decoration: underline;
+  color: rgba(50, 119, 136, 1);
 }
