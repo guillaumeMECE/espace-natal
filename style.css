@@ -176,6 +176,19 @@ ul.navbar-nav li a.active {
    z-index:2;
    padding: 3em 3.5em;
 }
+.btn-primary{
+  background-color: rgba(50,119,136,1);
+   border-color:rgba(50,119,136,1);
+}
+.btn-primary:hover{
+  background-color: rgba(20,89,106,1);
+   border-color:rgba(20,89,106,1);
+}
+.btn-primary:active{
+  background-color: rgba(5,74,91,1) !important;
+   border-color:rgba(5,74,91,1) !important;
+}
+
 h1{
 
   font-weight: 700;

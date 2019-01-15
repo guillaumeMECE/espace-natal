@@ -16,6 +16,17 @@
 
   <!-- NAVBAR -->
   <?php include("../views/navbar.html"); ?>
+
+  <div class="container">
+  <div class="row my-5">
+    <div class="col-12 border-left">
+      <a href="bilan_fertilite.php"><button type="button" class="btn btn-primary shadow rounded-pill px-4 my-2">Bilan de Fertilité</button></a><br>
+      <a href="bilan_infertilite.php"><button type="button" class="btn btn-primary shadow rounded-pill px-4 my-2">Bilan d'Infertilité</button></a><br>
+      <a href="prise_en_charge.php"><button type="button" class="btn btn-primary shadow rounded-pill px-4 my-2" >Prise en Charge</button></a>
+    </div>
+  </div>
+</div>
+
   <!-- FOOTER & SCRIPT FOOTER/NAVBAR -->
   <?php include("../views/footer.html"); ?>
   <script type="text/javascript">

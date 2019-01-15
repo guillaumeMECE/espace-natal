@@ -82,7 +82,7 @@
             <label class="form-check-label" for="exampleCheck1"><small>J'accepte que le site utilise ces informations pour répondre à ma demande</small></label>
           </div>
           <!-- SUBMIT BTN -->
-          <button type="submit" class="btn btn-primary shadow rounded-pill px-4 float-right" style="background-color: rgba(50,119,136,1); border-color:rgba(50,119,136,1);">Envoyer</button>
+          <button type="submit" class="btn btn-primary shadow rounded-pill px-4 float-right">Envoyer</button>
 
         </form>
         <?php //ALERT APRES ENVOI DU MAIL
