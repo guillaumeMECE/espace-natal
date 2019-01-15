@@ -17,6 +17,8 @@
 
   <!-- NAVBAR -->
   <?php include("../views/navbar.html"); ?>
+
+  <!-- IMAGE+TXTBOX -->
   <div class="my-5" style="position:relative;">
      <div style="">
         <img src="\espace-natal\src\Photo-49.jpg" alt="" style="width:100%;">
