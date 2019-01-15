@@ -16,7 +16,6 @@
 
   <!-- NAVBAR -->
   <?php include("../views/navbar.html"); ?>
-
   <!-- FOOTER & SCRIPT FOOTER/NAVBAR -->
   <?php include("../views/footer.html"); ?>
   <script type="text/javascript">

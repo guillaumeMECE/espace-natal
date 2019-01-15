@@ -20,38 +20,40 @@
   <?php include("views/navbar.html"); ?>
 
 <!-- Carousel -->
-<div class="" style="position:relative;">
-  <div id="carouselExampleControls" class="carousel slide shadow-sm" data-ride="carousel" >
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="src\Photo-52.jpg" class="d-block w-100" alt="...">
+  <div  style="position:relative;">
+    <div id="carouselExampleControls" class="carousel slide shadow-sm" data-ride="carousel" >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="src\Photo-52.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="src\Photo-54.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="src\Photo-113.jpg" class="d-block w-100" alt="...">
+        </div>
       </div>
-      <div class="carousel-item">
-        <img src="src\Photo-54.jpg" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="src\Photo-113.jpg" class="d-block w-100" alt="...">
-      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev" style="z-index:4;">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next" style="z-index:4;">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev" style="z-index:4;">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next" style="z-index:4;">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
+    <div class="imgContainerAccueil">
+      <div class="txtContainerAccueil">
+        <h1 style="text-decoration: none;">L'ESPACE NATAL</h1>
+        <h2>ET VOTRE GROSSESSE</h2>
+       <p class="mt-3">Le secrétariat de l’Espace Natal se tient à votre disposition du lundi au vendredi de 9h à 19h</p>
+      </div>
+
+     </div>
   </div>
-  <div class="imgContainerAccueil">
-    <div class="txtContainerAccueil">
-      <h1 style="text-decoration: none;">L'ESPACE NATAL</h1>
-      <h2>ET VOTRE GROSSESSE</h2>
-     <p class="mt-3">Le secrétariat de l’Espace Natal se tient à votre disposition du lundi au vendredi de 9h à 19h</p>
-    </div>
 
-   </div>
-</div>
-
+<!-- CONTACT -->
+<?php include("views/contact.html"); ?>
 
   <?php include("views/footer.html"); ?>
 

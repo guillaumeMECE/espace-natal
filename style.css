@@ -49,6 +49,10 @@ body {
   color: rgba(169, 216, 217, 1);
 }
 
+.grayColor{
+  color: rgba(155, 155, 155, 1);
+}
+
 a.activeFooter {
   color: rgba(50, 119, 136, 1);
   font-weight: bold;
