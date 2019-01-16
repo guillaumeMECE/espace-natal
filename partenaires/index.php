@@ -16,6 +16,12 @@
 
   <!-- NAVBAR -->
   <?php include("../views/navbar.html"); ?>
+
+<div class="container">
+
+</div>
+
+
   <!-- CONTACT -->
   <?php include("../views/contact.html"); ?>
   <!-- FOOTER & SCRIPT FOOTER/NAVBAR -->
