@@ -3,6 +3,9 @@ ul { list-style: none; }
   text-decoration: none !important;
   color: black;
 }
+.accordion-toggle.active-tab .menu-link{
+  color: white;
+}
 /*a { text-decoration: none !important; color: black;}*/
 #menu-wrapper {
     overflow: hidden;

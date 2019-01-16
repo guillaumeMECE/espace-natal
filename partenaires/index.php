@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Espace Natal2</title>
+  <title>Espace Natal</title>
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
@@ -28,6 +28,7 @@
       <!-- accordion-toggle -->
       <div class="menu-submenu accordion-content">
         <div class="row">
+          <!-- TXT D'ENTETE -->
           <div class="col-12">
             <p>La Maternité de la Clinique de la Muette appartient au réseau des 22 maternités du Groupe Ramsay Générale de santé, premier groupe de cliniques et d’hôpitaux privés en France.</p>
             <p>Cette maternité est une maternité de niveau 1 qui a établi un partenariat avec l’hôpital Necker lui permettant de prendre en charge les grossesses à risque ou encore les accouchements prématurés.</p>
@@ -35,6 +36,7 @@
             <p>Découvrez la pratique du bain Thalasso à la Maternité de la Clinique de la Muette</p>
             <a href="https://www.youtube.com/watch?v=lfB7YIdtWFI" target="_blank">Lien vers une video de présentation</a>
           </div>
+          <!-- SLIDE IMG -->
           <div class="col-lg-5">
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
               <div class="carousel-inner">
@@ -55,6 +57,7 @@
               </a>
             </div>
           </div>
+          <!-- TXT + LISTE -->
           <div class="col-7">
               <h6>La prise en charge</h6><br>
               <p>La Maternité de la Clinique de la Muette assure un accueil et une prise en charge permanente des urgences maternité et gynécologie: 24h/24 et 7j/7 une équipe d’astreinte pluridisciplinaire et expérimentée vous garantit une qualité de soins au sein du bloc obstétrical.</p>
