@@ -1,6 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
+@media (max-width: 768px) {
+  html{
+    font-size: 2.5vw;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  html{
+    font-size: 1.9vw;
+  }
+}
+@media (min-width: 992px) {
+  html {
+    font-size: 1vw;
+  }
+}
+
 body {
   font-family: 'Open Sans', sans-serif !important;
 }
@@ -49,23 +66,28 @@ body {
   color: rgba(169, 216, 217, 1);
 }
 
-.grayColor{
+.grayColor {
   color: rgba(155, 155, 155, 1);
 }
 
 a.activeFooter {
   color: rgba(50, 119, 136, 1);
-  font-weight: bold;
+  font-weight: 700;
 }
 
 a.inactiveFooter {
   color: #888;
-  font-weight: normal;
+  font-weight: 600;
+}
+
+small {
+  font-weight: 600;
 }
 
 p {
   text-align: justify;
   text-justify: inter-word;
+  font-weight: 600;
 }
 
 /* NAVBAR STYLE RULES */
@@ -75,11 +97,14 @@ ul.navbar-nav li a:hover, ul.navbar-nav li a:active {
 
 ul.navbar-nav li a {
   color: #888 !important;
+  font-weight: 600;
+  /*semi-bold*/
 }
 
 ul.navbar-nav li a.active {
   color: rgba(50, 119, 136, 1) !important;
-  font-weight: bold;
+  font-weight: 700;
+  /*bold*/
 }
 
 .dropdown .dropdown-menu .dropdown-item:active {
@@ -100,11 +125,12 @@ ul.navbar-nav li a.active {
   .navbar-brand {
     position: absolute;
     left: 50%;
-    transform:translateX(-50%) !important;
+    transform: translateX(-50%) !important;
     /* 50% of your logo width */
     display: block;
     top: 0;
   }
+
   .navbar-nav {
     float: none;
     margin: 0 auto;
@@ -117,15 +143,26 @@ ul.navbar-nav li a.active {
     display: inline-block;
     float: none;
   }
-  #idNavbarHeader{
+
+  #idNavbarHeader {
     width: 100%;
     padding-top: 1em;
   }
-  #idBrandLogoLargeScreen{
+
+  #idBrandLogoLargeScreen {
     width: 50%;
   }
+  .imgContainerContact {
+    position: absolute;
+    transform: translate(-25%, -50%);
+    top: 50%;
+    left: 25%;
+    width: 50%;
+    z-index: 2;
+    background-color: rgba(250, 250, 250, 0.85);
+    padding: 3em 3.5em;
+  }
 }
-
 
 @media (max-width: 992px) {
   .navbar .navbar-nav {
@@ -137,60 +174,68 @@ ul.navbar-nav li a.active {
   .navbar .navbar-collapse {
     text-align: center;
   }
-  #idNavbarHeader{
+
+  #idNavbarHeader {
     width: 50%;
     padding-top: 1em;
   }
-  #idBrandLogoLargeScreen{
+
+  #idBrandLogoLargeScreen {
     width: 300px;
   }
+
   .navbar-brand {
     position: relative;
   }
+
+  .imgContainerContact{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height : 100%;
+    background-color: rgba(250, 250, 250, 0.4);
+    padding: 3em 3.5em;
+  }
 }
 
-.imgContainer{
-  position:absolute;
-  transform:translate(-25%,-50%);
-  top: 50%;
-  left: 25%;
-  width:600px;
-   z-index:2;
-   background-color: rgba(250, 250, 250, 0.85);
-   padding: 3em 3.5em;
-}
-.imgContainerAccueil{
-  position:absolute;
+
+
+.imgContainerAccueil {
+  position: absolute;
   top: 0px;
   left: 0;
-  width:100%;
+  width: 100%;
   height: 100%;
-   z-index:2;
-   background-color: rgba(250, 250, 250, 0.4);
+  z-index: 2;
+  background-color: rgba(250, 250, 250, 0.4);
 }
-.txtContainerAccueil{
-  position:absolute;
-  transform:translate(-25%,-50%);
+
+.txtContainerAccueil {
+  position: absolute;
+  transform: translate(-25%, -50%);
   top: 50%;
   left: 25%;
-   z-index:2;
-   padding: 3em 3.5em;
-}
-.btn-primary{
-  background-color: rgba(50,119,136,1);
-   border-color:rgba(50,119,136,1);
-}
-.btn-primary:hover{
-  background-color: rgba(20,89,106,1);
-   border-color:rgba(20,89,106,1);
-}
-.btn-primary:active{
-  background-color: rgba(5,74,91,1) !important;
-   border-color:rgba(5,74,91,1) !important;
+  z-index: 2;
+  padding: 3em 3.5em;
 }
 
-h1{
+.btn-primary {
+  background-color: rgba(50, 119, 136, 1);
+  border-color: rgba(50, 119, 136, 1);
+}
 
+.btn-primary:hover {
+  background-color: rgba(20, 89, 106, 1);
+  border-color: rgba(20, 89, 106, 1);
+}
+
+.btn-primary:active {
+  background-color: rgba(5, 74, 91, 1) !important;
+  border-color: rgba(5, 74, 91, 1) !important;
+}
+
+h1 {
   font-weight: 700;
   text-decoration: underline;
   color: rgba(50, 119, 136, 1);

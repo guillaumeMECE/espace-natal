@@ -46,7 +46,7 @@
       <div class="txtContainerAccueil">
         <h1 style="text-decoration: none;">L'ESPACE NATAL</h1>
         <h2>ET VOTRE GROSSESSE</h2>
-       <p class="mt-3">Le secrétariat de l’Espace Natal se tient à votre disposition du lundi au vendredi de 9h à 19h</p>
+       <p class="mt-3" style="font-weight:600;">Le secrétariat de l’Espace Natal se tient à votre disposition du lundi au vendredi de 9h à 19h</p>
       </div>
 
      </div>
