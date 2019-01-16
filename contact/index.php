@@ -139,6 +139,7 @@
             <strong class="primaryColor">contact@espace-natal.com</strong>
           </div>
         </div>
+        <!-- DOCTOLIB -->
         <div class="row mb-3">
           <div class="col-12">
             <p class="ml-4">Vous pouvez également prendre directement rendez-vous sur Doctolib :</p>
