@@ -19,11 +19,11 @@
   <?php include("../views/navbar.html"); ?>
 
   <!-- IMAGE+TXTBOX -->
-  <div class="my-5" style="position:relative;">
+  <div class="mb-5 shadow-sm" style="position:relative;">
      <div style="">
         <img src="\espace-natal\src\Photo-49.jpg" alt="" style="width:100%;">
      </div>
-     <div class="imgContainer">
+     <div class="imgContainerContact">
        <h1>CONTACT</h1>
       <p class="mt-3"><small>Le secrétariat de l’Espace Natal se tient à votre disposition du lundi au vendredi de 9h à 19h</small></p>
       </div>
@@ -82,7 +82,7 @@
             <label class="form-check-label" for="exampleCheck1"><small>J'accepte que le site utilise ces informations pour répondre à ma demande</small></label>
           </div>
           <!-- SUBMIT BTN -->
-          <button type="submit" class="btn btn-primary shadow rounded-pill px-4 float-right" style="background-color: rgba(50,119,136,1); border-color:rgba(50,119,136,1);">Envoyer</button>
+          <button type="submit" class="btn btn-primary shadow rounded-pill px-4 float-right">Envoyer</button>
 
         </form>
         <?php //ALERT APRES ENVOI DU MAIL
@@ -139,6 +139,7 @@
             <strong class="primaryColor">contact@espace-natal.com</strong>
           </div>
         </div>
+        <!-- DOCTOLIB -->
         <div class="row mb-3">
           <div class="col-12">
             <p class="ml-4">Vous pouvez également prendre directement rendez-vous sur Doctolib :</p>

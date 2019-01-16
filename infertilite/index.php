@@ -16,6 +16,34 @@
 
   <!-- NAVBAR -->
   <?php include("../views/navbar.html"); ?>
+
+  <!-- IMAGE+TXTBOX -->
+  <div class="mb-5 shadow-sm" style="position:relative;">
+     <div style="">
+        <img src="\espace-natal\src\Photo-134.jpg" alt="" style="width:100%;">
+     </div>
+     <div class="imgContainerContact">
+       <h1>INFERTILITÉ</h1>
+      <p class="mt-3"><small>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultrices condimentum ligula, vel varius lacus eleifend vitae.</small></p>
+      </div>
+  </div>
+
+<!-- Lien-redirection -->
+  <div class="container">
+    <div class="row my-5">
+      <div class="col-12">
+        <p>Mauris consectetur ut risus ac posuere. Nulla laoreet lectus ultrices eros posuere venenatis. Pellentesque auctor ultrices nulla eget efficitur. Aliquam ullamcorper sodales mattis. Vestibulum sollicitudin facilisis leo, eget tempus nibh suscipit sit amet. Vivamus vitae ipsum porttitor, auctor elit vitae, consectetur sem. Nullam lobortis, enim eget hendrerit venenatis, nulla velit ornare diam, non pharetra arcu quam a metus.</p>
+      </div>
+    </div>
+  <div class="row my-5">
+    <div class="col-12 border-left">
+      <a href="bilan_fertilite.php"><button type="button" class="btn btn-primary shadow rounded-pill px-4 my-2">Bilan de Fertilité</button></a><br>
+      <a href="bilan_infertilite.php"><button type="button" class="btn btn-primary shadow rounded-pill px-4 my-2">Bilan d'Infertilité</button></a><br>
+      <a href="prise_en_charge.php"><button type="button" class="btn btn-primary shadow rounded-pill px-4 my-2" >Prise en Charge</button></a>
+    </div>
+  </div>
+</div>
+
   <!-- FOOTER & SCRIPT FOOTER/NAVBAR -->
   <?php include("../views/footer.html"); ?>
   <script type="text/javascript">

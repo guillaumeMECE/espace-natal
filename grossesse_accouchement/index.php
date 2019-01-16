@@ -17,6 +17,17 @@
   <!-- NAVBAR -->
   <?php include("../views/navbar.html"); ?>
 
+  <div class="container">
+  <div class="row my-5">
+    <div class="col-12 border-left">
+      <a href="grossesse_physiologique.php"><button type="button" class="btn btn-primary shadow rounded-pill px-4 my-2">Grossesse Physiologique </button></a><br>
+      <a href="grossesse_pathologique.php"><button type="button" class="btn btn-primary shadow rounded-pill px-4 my-2">Grossesse Pathologique</button></a><br>
+      <a href="accouchement.php"><button type="button" class="btn btn-primary shadow rounded-pill px-4 my-2" >Accouchement</button></a>
+    </div>
+  </div>
+</div>
+
+
   <!-- FOOTER & SCRIPT FOOTER/NAVBAR -->
   <?php include("../views/footer.html"); ?>
   <script type="text/javascript">
