@@ -21,7 +21,7 @@
   <div class="container my-5">
     <!-- menu-wrapper -->
     <ul class="menu-list accordion">
-      <li id="nav1" class="toggle accordion-toggle">
+      <li id="nav1" class="toggle accordion-toggle border-bottom">
         <span class="icon-plus"></span>
         <a class="menu-link" href="#">Menu1</a>
       </li>
