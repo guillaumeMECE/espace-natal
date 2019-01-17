@@ -31,13 +31,13 @@
           <p>Cette maternité est souvent privilégiée pour sa taille humaine avec sa trentaine de chambres cosy et les soins apportés aux mamans et aux nouveau-nés comme cette pratique du bain Thalasso … très appréciée par les intéressés !</p>
           <p>Découvrez la pratique du bain Thalasso à la Maternité de la Clinique de la Muette</p>
         </small>
-        <a href="https://www.youtube.com/watch?v=lfB7YIdtWFI" target="_blank">Lien vers une video de présentation</a>
+        <a href="https://www.youtube.com/watch?v=lfB7YIdtWFI" target="_blank" style="color: rgba(50, 119, 136, 1);  font-weight: 700; font-size: 14px">Lien vers une video de présentation</a>
       </div>
     </div>
-    <div class="row">
+    <div class="row border-bottom">
       <!-- SLIDE IMG -->
       <div class="col-lg-5">
-        <div id="carouselMuetteControls" class="carousel slide" data-ride="carousel">
+        <div id="carouselMuetteControls" class="carousel slide shadow-sm" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img src="/espace-natal/src/clinique-de-la-muette-espace-natal-paris-01.jpg" class="d-block w-100" alt="clinique-de-la-muette-espace-natal-paris-01">
@@ -62,15 +62,15 @@
           <img src="..\src\logo-clinique-de-la-muette.jpg" alt="logo-clinique-de-la-muette">
         </div>
         <div class="col border-left">
-          <h6>CLINIQUE DE LA MUETTE</h6>
+          <h6 style="color: rgba(162, 69, 124, 1);">CLINIQUE DE LA MUETTE</h6>
           <small>46-48 rue Nicolo <br> 75016 PARIS</small><br><br>
-          <h6>Pour joindre le standard :</h6>
+          <h6 style="color: rgba(162, 69, 124, 1);">Pour joindre le standard :</h6>
           <small>Tél : 01 40 72 33 33</small>
         </div>
       </div>
       <!-- TXT + LISTE -->
       <div class="col-lg-12 mt-3">
-        <h6>La prise en charge</h6>
+        <h5>La prise en charge</h5>
         <small>
           <p>La Maternité de la Clinique de la Muette assure un accueil et une prise en charge permanente des urgences maternité et gynécologie: 24h/24 et 7j/7 une équipe d’astreinte pluridisciplinaire et expérimentée vous garantit une qualité de
             soins au sein du bloc obstétrical.</p>
@@ -84,7 +84,7 @@
             <li>- d’une équipe chirurgicale</li>
           </small>
         </ul>
-        <h6>Votre séjour</h6>
+        <h5>Votre séjour</h5>
         <small>
           <p>La Maternité de la Clinique de la Muette dispose de 20 chambres particulières et de 4 appartements. Toutes les chambres et les appartements sont entièrement équipés (WC, douche, lit électrique, réfrigérateur, TV, Wifi) pour vous offrir
             confort, intimité et quiétude.
@@ -117,10 +117,10 @@
         </small>
       </div>
     </div>
-    <div class="row">
+    <div class="row border-bottom">
       <!-- SLIDE IMG -->
       <div class="col-lg-5">
-        <div id="carouselFeleciteControls" class="carousel slide" data-ride="carousel">
+        <div id="carouselFeleciteControls" class="carousel slide shadow-sm" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img src="/espace-natal/src/maternite-sainte-felicite-espace-natal-01.jpg" class="d-block w-100" alt="maternite-sainte-felicite-espace-natal-01">
@@ -151,15 +151,15 @@
           <img src="..\src\logo-maternite-sainte-felicite.jpg" alt="logo-maternite-sainte-felicite">
         </div>
         <div class="col border-left">
-          <h6>MATERNITÉ CATHOLIQUE SAINTE FÉLICITÉ</h6>
+          <h6 style="color: rgba(162, 69, 124, 1);">MATERNITÉ CATHOLIQUE SAINTE FÉLICITÉ</h6>
           <small>Adresse 7 Rue de Casablanca <br> 75015 PARIS</small><br><br>
-          <h6>Pour joindre le standard :</h6>
+          <h6 style="color: rgba(162, 69, 124, 1);">Pour joindre le standard :</h6>
           <small>Tél : 01 53 68 58 58</small>
         </div>
       </div>
       <!-- TXT + LISTE -->
       <div class="col-lg-12 mt-3">
-        <h6>La Maternité s’étend désormais sur 5 niveaux :</h6>
+        <h5>La Maternité s’étend désormais sur 5 niveaux :</h5>
         <ul style="list-style-type:none"><small>
             <li>- 11 salles de naissances</li>
             <li>- 2 salles d’opération</li>
@@ -190,7 +190,7 @@
     <div class="row">
       <!-- SLIDE IMG -->
       <div class="col-lg-5">
-        <div id="carouselAmericainControls" class="carousel slide" data-ride="carousel">
+        <div id="carouselAmericainControls" class="carousel slide shadow-sm" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img src="/espace-natal/src/american-hospital-of-paris-espace-natal-01.jpg" class="d-block w-100" alt="american-hospital-of-paris-espace-natal-01">
@@ -218,15 +218,15 @@
           <img src="..\src\logo-american-hospital-of-paris-espace-natal.jpg" alt="logo-american-hospital-of-paris-espace-natal">
         </div>
         <div class="col border-left">
-          <h6>L’Hôpital Américain de Paris</h6>
+          <h6 style="color: rgba(162, 69, 124, 1);">L’Hôpital Américain de Paris</h6>
           <small>Adresse 63 boulevard Victor Hugo<br>92200 NEUILLY-SUR-SEINE</small><br><br>
-          <h6>Pour joindre le standard :</h6>
+          <h6 style="color: rgba(162, 69, 124, 1);">Pour joindre le standard :</h6>
           <small>Tél : 01 46 41 25 25</small>
         </div>
       </div>
       <!-- TXT + LISTE -->
       <div class="col-lg-12 mt-3">
-        <h6>L'Hopital Americain de Paris c'est :</h6>
+        <h5>L'Hopital Americain de Paris c'est :</h5>
         <ul style="list-style-type:none"><small>
             <li>- 15 chambres individuelles</li>
             <li>- 2 salles d’accouchement</li>

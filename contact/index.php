@@ -102,7 +102,7 @@
       <!-- CONTACT LIST -->
       <div class="col-lg-6 my-5">
         <h3 class="primaryColor mb-5 border-bottom">CONTACTEZ-NOUS</h3>
-        <h6 class="mb-5"><u>VOUS POUVEZ NOUS CONTACTER DU LUNDI AU VENDREDI :</u></h6>
+        <h6 class="mb-5">VOUS POUVEZ NOUS CONTACTER DU LUNDI AU VENDREDI :</h6>
         <!-- ADRESSE -->
         <div class="row mb-3">
           <div class="col-2">
