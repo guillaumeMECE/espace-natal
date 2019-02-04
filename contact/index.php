@@ -124,7 +124,8 @@
             <br>
             <small>Du lundi au vendredi de 9h à 19h</small>
             <br>
-            <strong class="primaryColor">01.45.03.53.63</strong>
+            <strong><a href="tel:+33145035363" class="primaryColor">01.45.03.53.63</a></strong>
+            <!--strong class="primaryColor">01.45.03.53.63</strong-->
           </div>
         </div>
         <!-- EMAIL -->
@@ -136,7 +137,8 @@
             <h6>E-MAIL :</h6>
             <small>Envoyez un mail 7j/7 et 24h/24</small>
             <br>
-            <strong class="primaryColor">contact@espace-natal.com</strong>
+            <!--strong class="primaryColor">contact@espace-natal.com</strong-->
+            <strong><a href="mailto:contact@espace-natal.com?Subject=Contact" target="_top" class="primaryColor">contact@espace-natal.com</a></strong>
           </div>
         </div>
         <!-- DOCTOLIB -->
