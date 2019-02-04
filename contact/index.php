@@ -153,6 +153,7 @@
       </div>
     </div>
   </div>
+     <img src="../src/map-jean-richepin.png" alt="map-jean-richepin" class="mb-3 mt-5" style="width:100%;">
 
   <!-- FOOTER & SCRIPT FOOTER/NAVBAR -->
   <?php include("../views/footer.html"); ?>
