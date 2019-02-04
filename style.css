@@ -16,7 +16,8 @@
 
 @media (min-width: 992px) {
   html {
-    font-size: 0.95vw;
+    /*font-size: 0.95vw;*/
+    font-size: 1.1vw;
   }
 }
 

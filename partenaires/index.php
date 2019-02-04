@@ -17,7 +17,7 @@
   <!-- NAVBAR -->
   <?php include("../views/navbar.html"); ?>
 
-  <div class="container my-5">
+  <div class="container my-5" style="width:75%;">
     <!-- CLINIQUE MUETTE -->
     <div class="row">
       <div class="col-12">
