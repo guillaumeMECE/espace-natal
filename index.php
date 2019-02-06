@@ -18,7 +18,7 @@
 
   <!-- NAVBAR -->
   <?php include("views/navbar.html"); ?>
-
+<?php include("views/sticky_contact.html"); ?>
 <!-- Carousel -->
   <div  style="position:relative;">
     <div id="carouselExampleControls" class="carousel slide shadow-sm" data-ride="carousel" >

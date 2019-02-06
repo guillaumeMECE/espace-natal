@@ -3,269 +3,302 @@
 
 /* Rules for font size */
 @media (max-width: 768px) {
-  html {
-    font-size: 2.6vw;
-  }
+   html {
+      font-size: 2.6vw;
+   }
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
-  html {
-    font-size: 1.9vw;
-  }
+   html {
+      font-size: 1.9vw;
+   }
 }
 
 @media (min-width: 992px) {
-  html {
-    /*font-size: 0.95vw;*/
-    font-size: 1.1vw;
-  }
+   html {
+      /*font-size: 0.95vw;*/
+      font-size: 1.1vw;
+   }
 }
 
 /* Font type */
 body {
-  font-family: 'Open Sans', sans-serif !important;
+   font-family: 'Open Sans', sans-serif !important;
 }
 
 /* Rules for sizing the icon. */
 .material-icons.md-18 {
-  font-size: 18px;
+   font-size: 18px;
 }
 
 .material-icons.md-24 {
-  font-size: 24px;
+   font-size: 24px;
 }
 
 .material-icons.md-36 {
-  font-size: 36px;
+   font-size: 36px;
 }
 
 .material-icons.md-48 {
-  font-size: 48px;
+   font-size: 48px;
 }
 
 /* Rules for using icons as black on a light background. */
 .material-icons.md-dark {
-  color: rgba(0, 0, 0, 0.54);
+   color: rgba(0, 0, 0, 0.54);
 }
 
 .material-icons.md-dark.md-inactive {
-  color: rgba(0, 0, 0, 0.26);
+   color: rgba(0, 0, 0, 0.26);
 }
 
 /* Rules for using icons as white on a dark background. */
 .material-icons.md-light {
-  color: rgba(255, 255, 255, 1);
+   color: rgba(255, 255, 255, 1);
 }
 
 .material-icons.md-light.md-inactive {
-  color: rgba(255, 255, 255, 0.3);
+   color: rgba(255, 255, 255, 0.3);
 }
 
 /* COLOR RULES */
 .primaryColor {
-  color: rgba(50, 119, 136, 1);
+   color: rgba(50, 119, 136, 1);
 }
 
 .secondaryColor {
-  color: rgba(169, 216, 217, 1);
+   color: rgba(169, 216, 217, 1);
 }
 
 .grayColor {
-  color: rgba(155, 155, 155, 1);
+   color: rgba(155, 155, 155, 1);
 }
 
 a.activeFooter {
-  color: rgba(50, 119, 136, 1);
-  font-weight: 700;
+   color: rgba(50, 119, 136, 1);
+   font-weight: 700;
 }
 
 a.inactiveFooter {
-  color: #888;
-  font-weight: 600;
+   color: #888;
+   font-weight: 600;
 }
 
 small {
-  font-weight: 600;
+   font-weight: 600;
 }
 
 p {
-  text-align: justify;
-  text-justify: inter-word;
-  font-weight: 600;
+   text-align: justify;
+   text-justify: inter-word;
+   font-weight: 600;
 }
 
 /* NAVBAR STYLE RULES */
 ul.navbar-nav li a:hover, ul.navbar-nav li a:active {
-  color: rgba(50, 119, 136, 0.7) !important;
+   color: rgba(50, 119, 136, 0.7) !important;
 }
 
 ul.navbar-nav li a {
-  color: #888 !important;
-  font-weight: 600;
-  /*semi-bold*/
+   color: #888 !important;
+   font-weight: 600;
+   /*semi-bold*/
 }
 
 ul.navbar-nav li a.active {
-  color: rgba(50, 119, 136, 1) !important;
-  font-weight: 700;
-  /*bold*/
+   color: rgba(50, 119, 136, 1) !important;
+   font-weight: 700;
+   /*bold*/
 }
 
 .dropdown .dropdown-menu .dropdown-item:active {
-  color: white !important;
-  background-color: rgba(50, 119, 136, 1) !important;
+   color: white !important;
+   background-color: rgba(50, 119, 136, 1) !important;
 }
 
 /* dropdown on hover */
 @media (min-width: 992px) {
-  .dropdown:hover .dropdown-menu {
-    display: block;
-    margin-top: 0;
-    /* remove the gap so it doesn't close*/
-  }
+   .dropdown:hover .dropdown-menu {
+      display: block;
+      margin-top: 0;
+      /* remove the gap so it doesn't close*/
+   }
 }
 
 /* Large Screen */
 @media (min-width: 992px) {
-  .navbar-brand {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%) !important;
-    /* 50% of your logo width */
-    display: block;
-    top: 0;
-  }
+   .navbar-brand {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%) !important;
+      /* 50% of your logo width */
+      display: block;
+      top: 0;
+   }
 
-  .navbar-nav {
-    float: none;
-    margin: 0 auto;
-    margin-top: 8em;
-    display: block;
-    text-align: center;
-  }
+   .navbar-nav {
+      float: none;
+      margin: 0 auto;
+      margin-top: 8em;
+      display: block;
+      text-align: center;
+   }
 
-  .navbar-nav>li {
-    display: inline-block;
-    float: none;
-  }
+   .navbar-nav>li {
+      display: inline-block;
+      float: none;
+   }
 
-  #idNavbarHeader {
-    width: 100%;
-    padding-top: 1em;
-  }
+   #idNavbarHeader {
+      width: 100%;
+      padding-top: 1em;
+   }
 
-  /* size logo in navbar */
-  #idBrandLogoLargeScreen {
-    width: 50%;
-  }
+   /* size logo in navbar */
+   #idBrandLogoLargeScreen {
+      width: 50%;
+   }
 
-  .imgContainerContact {
-    position: absolute;
-    transform: translate(-25%, -50%);
-    top: 50%;
-    left: 25%;
-    width: 50%;
-    z-index: 2;
-    background-color: rgba(250, 250, 250, 0.85);
-    padding: 3em 3.5em;
-  }
+   .imgContainerContact {
+      position: absolute;
+      transform: translate(-25%, -50%);
+      top: 50%;
+      left: 25%;
+      width: 50%;
+      z-index: 2;
+      background-color: rgba(250, 250, 250, 0.85);
+      padding: 3em 3.5em;
+   }
 }
 
 /* Small Screen */
 @media (max-width: 992px) {
-  .navbar .navbar-nav {
-    display: inline-block;
-    float: none;
-    vertical-align: top;
-  }
+   .navbar .navbar-nav {
+      display: inline-block;
+      float: none;
+      vertical-align: top;
+   }
 
-  .navbar .navbar-collapse {
-    text-align: center;
-  }
+   .navbar .navbar-collapse {
+      text-align: center;
+   }
 
-  #idNavbarHeader {
-    width: 50%;
-    padding-top: 1em;
-  }
+   #idNavbarHeader {
+      width: 50%;
+      padding-top: 1em;
+   }
 
-  /* size logo in navbar */
-  #idBrandLogoLargeScreen {
-    width: 250px;
-  }
+   /* size logo in navbar */
+   #idBrandLogoLargeScreen {
+      width: 250px;
+   }
 
-  .navbar-brand {
-    position: relative;
-  }
+   .navbar-brand {
+      position: relative;
+   }
 
-  .imgContainerContact {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(250, 250, 250, 0.4);
-    padding: 3em 3.5em;
-  }
+   .imgContainerContact {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(250, 250, 250, 0.4);
+      padding: 3em 3.5em;
+   }
 }
 
 .imgContainerAccueil {
-  position: absolute;
-  top: 0px;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 2;
-  background-color: rgba(250, 250, 250, 0.4);
+   position: absolute;
+   top: 0px;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   z-index: 2;
+   background-color: rgba(250, 250, 250, 0.4);
 }
 
 .txtContainerAccueil {
-  position: absolute;
-  transform: translate(-25%, -50%);
-  top: 50%;
-  left: 25%;
-  z-index: 2;
-  padding: 3em 3.5em;
+   position: absolute;
+   transform: translate(-25%, -50%);
+   top: 50%;
+   left: 25%;
+   z-index: 2;
+   padding: 3em 3.5em;
 }
 
 /* Overwrite btn caracs */
 .btn-primary {
-  background-color: rgba(50, 119, 136, 1);
-  border-color: rgba(50, 119, 136, 1);
+   background-color: rgba(50, 119, 136, 1);
+   border-color: rgba(50, 119, 136, 1);
 }
 
 .btn-primary:hover {
-  background-color: rgba(20, 89, 106, 1);
-  border-color: rgba(20, 89, 106, 1);
+   background-color: rgba(20, 89, 106, 1);
+   border-color: rgba(20, 89, 106, 1);
 }
 
 .btn-primary:active {
-  background-color: rgba(5, 74, 91, 1) !important;
-  border-color: rgba(5, 74, 91, 1) !important;
+   background-color: rgba(5, 74, 91, 1) !important;
+   border-color: rgba(5, 74, 91, 1) !important;
 }
 
 h1 {
-  font-weight: 700;
-  text-decoration: underline;
-  color: rgba(50, 119, 136, 1);
+   font-weight: 700;
+   text-decoration: underline;
+   color: rgba(50, 119, 136, 1);
 }
 
 h3 {
-  color: rgba(50, 119, 136, 1);
-  font-weight: 700;
+   color: rgba(50, 119, 136, 1);
+   font-weight: 700;
 }
 
 h5 {
-  color: rgba(50, 119, 136, 1);
-  font-weight: 600;
+   color: rgba(50, 119, 136, 1);
+   font-weight: 600;
 }
 
 h6 {
-  /*color: rgba(142, 147, 160, 1);*/
-  font-weight: 600;
+   /*color: rgba(142, 147, 160, 1);*/
+   font-weight: 600;
 }
 
 h6 small {
-  color: rgba(142, 147, 160, 1);
+   color: rgba(142, 147, 160, 1);
+}
+
+.square {
+   position: fixed;
+   right: 0;
+   z-index: 5;
+   top: 50%;
+   transform: translateY(-50%);
+
+}
+
+.phoneContact {
+   width: 170px;
+   height: 40px;
+   background-color: rgba(50, 119, 136, 1);
+   transform: translateX(76%);
+   transition: all 400ms;
+}
+.phoneContact:hover{
+   transform: translateX(0%);
+}
+
+
+.doctolibContact {
+   float: right;
+   width: 100px;
+   height: 40px;
+   background-color: rgba(169, 216, 217, 1);
+   transform: translateX(60%);
+   transition: all 400ms;
+}
+.doctolibContact:hover{
+   transform: translateX(0%);
 }
 
 /*
