@@ -15,8 +15,8 @@
 <body>
 
   <!-- NAVBAR & STICKY CONTACT -->
-  <?php include("../views/navbar.html");
- include("../views/sticky_contact.html"); ?>
+  <?php include("../views/sticky_contact.html");
+  include("../views/navbar.html");?>
 
   <div class="container">
   <div class="row my-5">

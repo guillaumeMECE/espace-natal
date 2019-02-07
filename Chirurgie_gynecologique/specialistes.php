@@ -15,8 +15,8 @@
 <body>
 
   <!-- NAVBAR & STICKY CONTACT -->
-  <?php include("../views/navbar.html");
- include("../views/sticky_contact.html"); ?>
+  <?php include("../views/sticky_contact.html");
+  include("../views/navbar.html");?>
 
   <!-- FOOTER & SCRIPT FOOTER/NAVBAR -->
   <?php include("../views/footer.html"); ?>
