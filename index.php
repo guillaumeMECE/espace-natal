@@ -51,10 +51,11 @@
 
      </div>
   </div>
-
+<!-- EQUIPE -->
+<?php   include("views/equipe.html"); ?>
 <!-- CONTACT -->
 <?php include("views/contact.html"); ?>
-
+<!-- FOOTER -->
   <?php include("views/footer.html"); ?>
 
   <script type="text/javascript">
