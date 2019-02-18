@@ -269,59 +269,103 @@ h6 small {
 }
 
 /* STICKY CONTACT */
-.square {
-  position: fixed;
-  right: 0;
-  z-index: 5;
-  top: 50%;
-  transform: translateY(-50%);
+@media (min-width: 992px) {
+  .square {
+    position: fixed;
+    right: 0;
+    z-index: 5;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .phoneContact {
+    height: 40px;
+    width: 250px;
+    display: table;
+    word-wrap: break-word;
+    background-color: rgba(50, 119, 136, 1);
+    cursor:pointer;
+    padding-right: 5px;
+    transform: translateX(81.5%);
+    transition: all 400ms;
+    margin-bottom: 0.25em;
+    border-radius: 7px 0px 0px 7px;
+  }
+
+  .phoneContact:hover {
+    transform: translateX(0%);
+  }
+
+  .phoneContactTxt {
+    display: table-cell;
+    vertical-align: middle;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+  }
+
+  .doctolibContact {
+    float: right;
+    display: table;
+    width: 140px;
+    word-wrap: break-word;
+    padding-right: 5px;
+    height: 40px;
+    background-color: rgba(162, 69, 124, 1);
+    cursor:pointer;
+    transform: translateX(67%);
+    transition: all 400ms;
+    border-radius: 7px 0px 0px 7px;
+  }
+
+  .doctolibContact:hover {
+    transform: translateX(0%);
+  }
+
+  .doctolibContactTxt {
+    display: table-cell;
+    vertical-align: middle;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+  }
 }
 
-.phoneContact {
-  height: 40px;
-  width: 250px;
-  display: table;
-  word-wrap: break-word;
-  background-color: rgba(50, 119, 136, 1);
-  padding-right: 5px;
-  transform: translateX(81.5%);
-  transition: all 400ms;
-}
+@media (max-width: 992px) {
+  .square {
+    position:relative;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(229,233,234);
+  }
 
-.phoneContact:hover {
-  transform: translateX(0%);
-}
+  .phoneContact {
+    float: right;
+    height: 40px;
+    width: 40px;
+    word-wrap: break-word;
+    background-color: rgba(50, 119, 136, 1);
+    cursor:pointer;
+    padding-right: 5px;
+  }
 
-.phoneContactTxt {
-  display: table-cell;
-  vertical-align: middle;
-  font-weight: 600;
-  font-size: 20px;
-  color: white;
-}
+  .phoneContactTxt {
+    display: none;
+  }
 
-.doctolibContact {
-  float: right;
-  display: table;
-  width: 140px;
-  word-wrap: break-word;
-  padding-right: 5px;
-  height: 40px;
-  background-color: rgba(162, 69, 124, 1);
-  transform: translateX(67%);
-  transition: all 400ms;
-}
+  .doctolibContact {
+    float: right;
+    width: 40px;
+    word-wrap: break-word;
+    padding-right: 5px;
+    height: 40px;
+    background-color: rgba(162, 69, 124, 1);
+    cursor:pointer;
+  }
 
-.doctolibContact:hover {
-  transform: translateX(0%);
-}
-
-.doctolibContactTxt {
-  display: table-cell;
-  vertical-align: middle;
-  font-weight: 600;
-  font-size: 20px;
-  color: white;
+  .doctolibContactTxt {
+    display: none;
+  }
 }
 
 /*

@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Espace Natal - Contact</title>
+  <title>Espace Natal</title>
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
@@ -16,8 +16,8 @@
 <body>
 
   <!-- NAVBAR & STICKY CONTACT -->
-  <?php include("../views/navbar.html");
- include("../views/sticky_contact.html"); ?>
+  <?php include("../views/sticky_contact.html");
+  include("../views/navbar.html");?>
 
   <!-- IMAGE+TXTBOX -->
   <div class="mb-5 shadow-sm" style="position:relative;">
@@ -92,8 +92,13 @@
               echo "<div class=\"alert alert-success w-75 mx-auto m-3 text-center float-left\" role=\"alert\">
                     Votre message c'est bien envoyé.
                     </div>";
-            }else{
-              echo "<div class=\"alert alert-danger w-75 mx-auto m-3 text-center float-left\" role=\"alert\">
+            }/*else if($_GET['send'] == "true"){
+            // FIXME:    add les get
+               $url='\espace-natal\contact\contactMailAccuse.php';
+               $delay = 0;
+               header("Refresh: $delay;url=$url");
+            }*/else{
+               echo "<div class=\"alert alert-danger w-75 mx-auto m-3 text-center float-left\" role=\"alert\">
                     Une erreur s'est produite lors de l'envoi du message, veuillez réessayer ultérieurement.
                     </div>";
             }
@@ -156,7 +161,8 @@
       </div>
     </div>
   </div>
-     <img src="../src/map-jean-richepin.png" alt="map-jean-richepin" class="mb-3 mt-5" style="width:100%;">
+     <!--img src="../src/map-jean-richepin.png" alt="map-jean-richepin" class="mb-3 mt-5" style="width:100%;"-->
+     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2444.899550638365!2d2.2725614839495853!3d48.86167135173002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66554337ec511%3A0xdd6cc1c700d125bd!2s8+Rue+Jean+Richepin%2C+75116+Paris!5e0!3m2!1sfr!2sfr!4v1550514232968" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
 
   <!-- FOOTER & SCRIPT FOOTER/NAVBAR -->
   <?php include("../views/footer.html"); ?>
