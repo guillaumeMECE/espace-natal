@@ -4,13 +4,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Espace Natal</title>
+  <title>Centre Jean Richepin</title>
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:600" rel="stylesheet">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <link rel="stylesheet" href="/espace-natal/style.css">
 </head>
 
@@ -52,7 +52,8 @@
      </div>
   </div>
 <!-- EQUIPE -->
-<?php   include("views/equipe.html"); ?>
+<?php   include("views/equipe_concept_centre.html"); ?>
+
 <!-- CONTACT -->
 <?php include("views/contact.html"); ?>
 <!-- FOOTER -->

@@ -3,371 +3,460 @@
 
 /* Rules for font size */
 @media (max-width: 768px) {
-  html {
-    font-size: 2.6vw;
-  }
+   html {
+      font-size: 2.6vw;
+   }
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
-  html {
-    font-size: 1.9vw;
-  }
+   html {
+      font-size: 1.9vw;
+   }
 }
 
 @media (min-width: 992px) {
-  html {
-    /*font-size: 0.95vw;*/
-    font-size: 1.1vw;
-  }
+   html {
+      /*font-size: 0.95vw;*/
+      font-size: 1.1vw;
+   }
 }
 
 /* Font type */
 body {
-  font-family: 'Open Sans', sans-serif !important;
+   font-family: 'Open Sans', sans-serif !important;
 }
 
 /* Rules for sizing the icon. */
 .material-icons.md-18 {
-  font-size: 18px;
+   font-size: 18px;
 }
 
 .material-icons.md-24 {
-  font-size: 24px;
+   font-size: 24px;
 }
 
 .material-icons.md-36 {
-  font-size: 36px;
+   font-size: 36px;
 }
 
 .material-icons.md-48 {
-  font-size: 48px;
+   font-size: 48px;
 }
 
 /* Rules for using icons as black on a light background. */
 .material-icons.md-dark {
-  color: rgba(0, 0, 0, 0.54);
+   color: rgba(0, 0, 0, 0.54);
 }
 
 .material-icons.md-dark.md-inactive {
-  color: rgba(0, 0, 0, 0.26);
+   color: rgba(0, 0, 0, 0.26);
 }
 
 /* Rules for using icons as white on a dark background. */
 .material-icons.md-light {
-  color: rgba(255, 255, 255, 1);
+   color: rgba(255, 255, 255, 1);
 }
 
 .material-icons.md-light.md-inactive {
-  color: rgba(255, 255, 255, 0.3);
+   color: rgba(255, 255, 255, 0.3);
 }
 
 /* COLOR RULES */
 .primaryColor {
-  color: rgba(50, 119, 136, 1);
+   color: rgba(50, 119, 136, 1);
 }
 
 .secondaryColor {
-  color: rgba(169, 216, 217, 1);
+   color: rgba(169, 216, 217, 1);
 }
 
 .grayColor {
-  color: rgba(155, 155, 155, 1);
+   color: rgba(155, 155, 155, 1);
 }
 
 a.activeFooter {
-  color: rgba(50, 119, 136, 1);
-  font-weight: 700;
+   color: rgba(50, 119, 136, 1);
+   font-weight: 700;
 }
 
 a.inactiveFooter {
-  color: #888;
-  font-weight: 600;
+   color: #888;
+   font-weight: 600;
 }
 
 small {
-  font-weight: 600;
+   font-weight: 600;
 }
 
 p {
-  text-align: justify;
-  text-justify: inter-word;
-  font-weight: 600;
+   text-align: justify;
+   text-justify: inter-word;
+   font-weight: 600;
 }
 
 /* NAVBAR STYLE RULES */
 ul.navbar-nav li a:hover, ul.navbar-nav li a:active {
-  color: rgba(50, 119, 136, 0.7) !important;
+   color: rgba(50, 119, 136, 0.7) !important;
 }
 
 ul.navbar-nav li a {
-  color: #888 !important;
-  font-weight: 600;
-  /*semi-bold*/
+   color: #888 !important;
+   font-weight: 600;
+   /*semi-bold*/
 }
 
 ul.navbar-nav li a.active {
-  color: rgba(50, 119, 136, 1) !important;
-  font-weight: 700;
-  /*bold*/
+   color: rgba(50, 119, 136, 1) !important;
+   font-weight: 700;
+   /*bold*/
 }
 
 .dropdown .dropdown-menu .dropdown-item:active {
-  color: white !important;
-  background-color: rgba(50, 119, 136, 1) !important;
+   color: white !important;
+   background-color: rgba(50, 119, 136, 1) !important;
 }
 
 /* dropdown on hover */
 @media (min-width: 992px) {
-  .dropdown:hover .dropdown-menu {
-    display: block;
-    margin-top: 0;
-    /* remove the gap so it doesn't close*/
-  }
+   .dropdown:hover .dropdown-menu {
+      display: block;
+      margin-top: 0;
+      /* remove the gap so it doesn't close*/
+   }
 }
 
 /* Large Screen */
 @media (min-width: 992px) {
-  .navbar-brand {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%) !important;
-    /* 50% of your logo width */
-    display: block;
-    top: 0;
-  }
+   .navbar-brand {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%) !important;
+      /* 50% of your logo width */
+      display: block;
+      top: 0;
+   }
 
-  .navbar-nav {
-    float: none;
-    margin: 0 auto;
-    margin-top: 8em;
-    display: block;
-    text-align: center;
-  }
+   .navbar-nav {
+      float: none;
+      margin: 0 auto;
+      margin-top: 8em;
+      display: block;
+      text-align: center;
+   }
 
-  .navbar-nav>li {
-    display: inline-block;
-    float: none;
-  }
+   .navbar-nav>li {
+      display: inline-block;
+      float: none;
+   }
 
-  #idNavbarHeader {
-    width: 100%;
-    padding-top: 1em;
-  }
+   #idNavbarHeader {
+      width: 100%;
+      padding-top: 1em;
+   }
 
-  /* size logo in navbar */
-  #idBrandLogoLargeScreen {
-    width: 50%;
-  }
+   /* size logo in navbar */
+   #idBrandLogoLargeScreen {
+      width: 50%;
+   }
 
-  .imgContainerContact {
-    position: absolute;
-    transform: translate(-25%, -50%);
-    top: 50%;
-    left: 25%;
-    width: 50%;
-    z-index: 2;
-    background-color: rgba(250, 250, 250, 0.85);
-    padding: 3em 3.5em;
-  }
+   .imgContainerContact {
+      position: absolute;
+      transform: translate(-25%, -50%);
+      top: 50%;
+      left: 25%;
+      width: 50%;
+      z-index: 2;
+      background-color: rgba(250, 250, 250, 0.85);
+      padding: 3em 3.5em;
+   }
 }
 
 /* Small Screen */
 @media (max-width: 992px) {
-  .navbar .navbar-nav {
-    display: inline-block;
-    float: none;
-    vertical-align: top;
-  }
+   .navbar .navbar-nav {
+      display: inline-block;
+      float: none;
+      vertical-align: top;
+   }
 
-  .navbar .navbar-collapse {
-    text-align: center;
-  }
+   .navbar .navbar-collapse {
+      text-align: center;
+   }
 
-  #idNavbarHeader {
-    width: 50%;
-    padding-top: 1em;
-  }
+   #idNavbarHeader {
+      width: 50%;
+      padding-top: 1em;
+   }
 
-  /* size logo in navbar */
-  #idBrandLogoLargeScreen {
-    width: 250px;
-  }
+   /* size logo in navbar */
+   #idBrandLogoLargeScreen {
+      width: 250px;
+   }
 
-  .navbar-brand {
-    position: relative;
-  }
+   .navbar-brand {
+      position: relative;
+   }
 
-  .imgContainerContact {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(250, 250, 250, 0.4);
-    padding: 3em 3.5em;
-  }
+   .imgContainerContact {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(250, 250, 250, 0.4);
+      padding: 3em 3.5em;
+   }
 }
 
 .imgContainerAccueil {
-  position: absolute;
-  top: 0px;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 2;
-  background-color: rgba(250, 250, 250, 0.4);
+   position: absolute;
+   top: 0px;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   z-index: 2;
+   background-color: rgba(250, 250, 250, 0.4);
 }
 
 .txtContainerAccueil {
-  position: absolute;
-  transform: translate(-25%, -50%);
-  top: 50%;
-  left: 25%;
-  z-index: 2;
-  padding: 3em 3.5em;
+   position: absolute;
+   transform: translate(-25%, -50%);
+   top: 50%;
+   left: 25%;
+   z-index: 2;
+   padding: 3em 3.5em;
 }
 
 /* Overwrite btn caracs */
 .btn-primary {
-  background-color: rgba(50, 119, 136, 1);
-  border-color: rgba(50, 119, 136, 1);
+   background-color: rgba(50, 119, 136, 1);
+   border-color: rgba(50, 119, 136, 1);
 }
 
 .btn-primary:hover {
-  background-color: rgba(20, 89, 106, 1);
-  border-color: rgba(20, 89, 106, 1);
+   background-color: rgba(20, 89, 106, 1);
+   border-color: rgba(20, 89, 106, 1);
 }
 
 .btn-primary:active {
-  background-color: rgba(5, 74, 91, 1) !important;
-  border-color: rgba(5, 74, 91, 1) !important;
+   background-color: rgba(5, 74, 91, 1) !important;
+   border-color: rgba(5, 74, 91, 1) !important;
 }
 
 h1 {
-  font-weight: 700;
-  text-decoration: underline;
-  color: rgba(50, 119, 136, 1);
+   font-weight: 700;
+   text-decoration: underline;
+   color: rgba(50, 119, 136, 1);
 }
 
 h3 {
-  color: rgba(50, 119, 136, 1);
-  font-weight: 700;
+   color: rgba(50, 119, 136, 1);
+   font-weight: 700;
 }
 
 h5 {
-  color: rgba(50, 119, 136, 1);
-  font-weight: 600;
+   color: rgba(50, 119, 136, 1);
+   font-weight: 600;
 }
 
 h6 {
-  /*color: rgba(142, 147, 160, 1);*/
-  font-weight: 600;
+   /*color: rgba(142, 147, 160, 1);*/
+   font-weight: 600;
 }
 
 h6 small {
-  color: rgba(142, 147, 160, 1);
+   color: rgba(142, 147, 160, 1);
 }
 
 /* STICKY CONTACT */
 @media (min-width: 992px) {
-  .square {
-    position: fixed;
-    right: 0;
-    z-index: 5;
-    top: 50%;
-    transform: translateY(-50%);
-  }
+   .square {
+      position: fixed;
+      right: 0;
+      z-index: 5;
+      top: 50%;
+      transform: translateY(-50%);
+   }
 
-  .phoneContact {
-    height: 40px;
-    width: 250px;
-    display: table;
-    word-wrap: break-word;
-    background-color: rgba(50, 119, 136, 1);
-    cursor:pointer;
-    padding-right: 5px;
-    transform: translateX(81.5%);
-    transition: all 400ms;
-    margin-bottom: 0.25em;
-    border-radius: 7px 0px 0px 7px;
-  }
+   .phoneContact {
+      height: 40px;
+      width: 250px;
+      display: table;
+      word-wrap: break-word;
+      background-color: rgba(50, 119, 136, 1);
+      cursor: pointer;
+      padding-right: 5px;
+      transform: translateX(81.5%);
+      transition: all 400ms;
+      margin-bottom: 0.25em;
+      border-radius: 7px 0px 0px 7px;
+   }
 
-  .phoneContact:hover {
-    transform: translateX(0%);
-  }
+   .phoneContact:hover {
+      transform: translateX(0%);
+   }
 
-  .phoneContactTxt {
-    display: table-cell;
-    vertical-align: middle;
-    font-weight: 600;
-    font-size: 20px;
-    color: white;
-  }
+   .phoneContactTxt {
+      display: table-cell;
+      vertical-align: middle;
+      font-weight: 600;
+      font-size: 20px;
+      color: white;
+   }
 
-  .doctolibContact {
-    float: right;
-    display: table;
-    width: 140px;
-    word-wrap: break-word;
-    padding-right: 5px;
-    height: 40px;
-    background-color: rgba(162, 69, 124, 1);
-    cursor:pointer;
-    transform: translateX(67%);
-    transition: all 400ms;
-    border-radius: 7px 0px 0px 7px;
-  }
+   .doctolibContact {
+      float: right;
+      display: table;
+      width: 140px;
+      word-wrap: break-word;
+      padding-right: 5px;
+      height: 40px;
+      background-color: rgba(162, 69, 124, 1);
+      cursor: pointer;
+      transform: translateX(67%);
+      transition: all 400ms;
+      border-radius: 7px 0px 0px 7px;
+   }
 
-  .doctolibContact:hover {
-    transform: translateX(0%);
-  }
+   .doctolibContact:hover {
+      transform: translateX(0%);
+   }
 
-  .doctolibContactTxt {
-    display: table-cell;
-    vertical-align: middle;
-    font-weight: 600;
-    font-size: 20px;
-    color: white;
-  }
+   .doctolibContactTxt {
+      display: table-cell;
+      vertical-align: middle;
+      font-weight: 600;
+      font-size: 20px;
+      color: white;
+   }
 }
 
 @media (max-width: 992px) {
-  .square {
-    position:relative;
-    width: 100%;
-    height: 40px;
-    background-color: rgb(229,233,234);
-  }
+   .square {
+      position: relative;
+      width: 100%;
+      height: 40px;
+      background-color: rgb(229, 233, 234);
+   }
 
-  .phoneContact {
-    float: right;
-    height: 40px;
-    width: 40px;
-    word-wrap: break-word;
-    background-color: rgba(50, 119, 136, 1);
-    cursor:pointer;
-    padding-right: 5px;
-  }
+   .phoneContact {
+      float: right;
+      height: 40px;
+      width: 40px;
+      word-wrap: break-word;
+      background-color: rgba(50, 119, 136, 1);
+      cursor: pointer;
+      padding-right: 5px;
+   }
 
-  .phoneContactTxt {
-    display: none;
-  }
+   .phoneContactTxt {
+      display: none;
+   }
 
-  .doctolibContact {
-    float: right;
-    width: 40px;
-    word-wrap: break-word;
-    padding-right: 5px;
-    height: 40px;
-    background-color: rgba(162, 69, 124, 1);
-    cursor:pointer;
-  }
+   .doctolibContact {
+      float: right;
+      width: 40px;
+      word-wrap: break-word;
+      padding-right: 5px;
+      height: 40px;
+      background-color: rgba(162, 69, 124, 1);
+      cursor: pointer;
+   }
 
-  .doctolibContactTxt {
-    display: none;
-  }
+   .doctolibContactTxt {
+      display: none;
+   }
 }
 
+.navTabs {
+   width: 100%;
+   background-color: rgb(53, 118, 136);
+}
+
+.tabs {
+   padding: 0.5em 0;
+}
+
+.tabBtn {
+   width: 100px;
+   height: 100px;
+   padding-top: 10px;
+   border-radius: 50%;
+   background: rgb(53, 118, 136);
+   display: inline-block;
+}
+
+.tabBtn:hover {
+   animation: fadein 1s;
+   -moz-animation: fadein 1s;
+   /* Firefox */
+   -webkit-animation: fadein 1s;
+   /* Safari et Chrome */
+   -o-animation: fadein 1s;
+   /* Opera */
+}
+
+@keyframes fadein {
+   from {
+      background: rgba(207, 207, 207, 0);
+      width: 30px;
+      height: 30px;
+   }
+
+   to {
+      background: rgba(207, 207, 207, 0.5);
+      width: 100px;
+      height: 100px;
+   }
+}
+
+@-moz-keyframes fadein {
+
+   /* sur Firefox */
+   from {
+      background: rgba(207, 207, 207, 0);
+   }
+
+   to {
+      background: rgba(207, 207, 207, 0.5);
+   }
+}
+
+@-webkit-keyframes fadein {
+
+   /* sur Safari et Chrome */
+   from {
+      background: rgba(207, 207, 207, 0);
+      width: 30px;
+      height: 30px;
+   }
+
+   to {
+      background: rgba(207, 207, 207, 0.5);
+      width: 100px;
+      height: 100px;
+   }
+}
+
+@-o-keyframes fadein {
+
+   /* sur Opera */
+   from {
+      background: rgba(207, 207, 207, 0);
+   }
+
+   to {
+      background: rgba(207, 207, 207, 0.5);
+   }
+}
+
+.tabBtn p {
+   text-align: center;
+   font-weight: 600;
+   color: white;
+}
+
+/*when hover transition with white circle opacity 20% that growing*/
 /*
 a{
   color: rgba(162, 69, 124, 1);
