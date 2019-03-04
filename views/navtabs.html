@@ -1,16 +1,45 @@
 <div class="navTabs">
    <div class="stuff">
-      <div class="buttonTab mt-2 mx-3" tabindex="1">
+      <div class="buttonTab mt-2 mx-3" tabindex="1" data-tab="tab-1">
          <span><i class="material-icons md-36">lightbulb_outline</i></span>
          <p>Concept</p>
       </div>
-      <div class="buttonTab mt-2 mx-3" tabindex="2">
+      <div class="buttonTab mt-2 mx-3" tabindex="2" data-tab="tab-2">
          <span><i class="material-icons md-36">account_balance</i></span>
          <p>Le Centre</p>
       </div>
-      <div class="buttonTab mt-2 mx-3" tabindex="3">
+      <div class="buttonTab mt-2 mx-3" tabindex="3" data-tab="tab-3">
          <span><i class="material-icons md-36">face</i></span>
          <p>L'Equipe</p>
       </div>
    </div>
 </div>
+<!--div class="navTabs">
+   <div class="stuff">
+      <a class="buttonTab mt-2 mx-3" tabindex="1" data-tab="tab-1">
+         <span><i class="material-icons md-36">lightbulb_outline</i></span>
+         <p>Concept</p>
+      </a>
+      <a class="buttonTab mt-2 mx-3" tabindex="2" data-tab="tab-2">
+         <span><i class="material-icons md-36">account_balance</i></span>
+         <p>Le Centre</p>
+      </a>
+      <a class="buttonTab mt-2 mx-3" tabindex="3" data-tab="tab-3">
+         <span><i class="material-icons md-36">face</i></span>
+         <p>L'Equipe</p>
+      </a>
+   </div>
+</div-->
+
+ <script>
+    $(document).ready(function(){
+	//$('div.buttonTab p').click(function(){
+      $('div.buttonTab').click(function(){
+		var tab_id = $(this).attr('data-tab');
+      var link = "tabs_concept_centre_equipe.php?tab="+tab_id;
+      console.log(link);
+      window.location.href = link;
+	})
+
+})
+ </script>
